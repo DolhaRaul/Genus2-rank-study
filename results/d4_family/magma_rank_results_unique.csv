@@ -1,0 +1,1935 @@
+unique_id,poly_hash,F_integral,first_source_csv,first_source_row_index,first_construction_kind,first_execution_relative_dir,first_family_index,first_curve_index,first_family_label,first_curve_label,first_affine_point_count,first_projective_lower_bound,height_F_integral,degree,is_squarefree_integral_over_Q,appearance_count,xml_file,request_status,elapsed_local_seconds,max_time,max_input,seed,version,time,memory,warning,rankbounds_lb,rankbounds_ub,rank_direct,rank_g,finiteIndex,proved,ub2,final_rank_printed,rank_Jacobian,rank_status,rank_source,assumption,magma_error,unresolved,lines_text
+curve_000001_5d5cedf11e3d10f0,5d5cedf11e3d10f0,36*x^6 - 97*x^4 - 97*x^2 + 36,families_construct_d4_reciprocal/d4_top_curves_summary.csv,1,d4_reciprocal,,,1,D4_t=-97/36,CURBA #1,42,44,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000001_5d5cedf11e3d10f0_5d5cedf11e3d10f0.xml,ok,16.037,120,50000,3700524806,2.29-7,13.339,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000001_5d5cedf11e3d10f0 | d4_reciprocal | D4_t=-97/36 | C1
+f(x) = 36*x^6 - 97*x^4 - 97*x^2 + 36
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000002_b021dee8184adda1,b021dee8184adda1,100*x^6 - 5*x^4 - 5*x^2 + 100,families_construct_d4_reciprocal/d4_top_curves_summary.csv,2,d4_reciprocal,,,2,D4_t=-1/20,CURBA #2,42,44,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000002_b021dee8184adda1_b021dee8184adda1.xml,ok,25.206,120,50000,3264190777,2.29-7,14.189,129.59MB,,4,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000002_b021dee8184adda1 | d4_reciprocal | D4_t=-1/20 | C2
+f(x) = 100*x^6 - 5*x^4 - 5*x^2 + 100
+RankBounds: [4, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000004_06c008635e0780c9,06c008635e0780c9,25*x^6 - 185*x^4 - 185*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,4,d4_reciprocal,,,4,D4_t=-37/5,CURBA #4,42,44,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000004_06c008635e0780c9_06c008635e0780c9.xml,ok,19.110,120,50000,3331038510,2.29-7,11.070,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000004_06c008635e0780c9 | d4_reciprocal | D4_t=-37/5 | C4
+f(x) = 25*x^6 - 185*x^4 - 185*x^2 + 25
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000003_ef2f73cf0ae43690,ef2f73cf0ae43690,x^6 + 148*x^4 + 148*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,3,d4_reciprocal,,,3,D4_t=148,CURBA #3,42,44,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000003_ef2f73cf0ae43690_ef2f73cf0ae43690.xml,ok,42.480,120,50000,3230505763,2.29-7,38.159,110.56MB,,8,8,8,,,,,,8,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000003_ef2f73cf0ae43690 | d4_reciprocal | D4_t=148 | C3
+f(x) = x^6 + 148*x^4 + 148*x^2 + 1
+RankBounds: [8, 8]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 8
+"
+curve_000005_52fa8b17317df482,52fa8b17317df482,196*x^6 - 137*x^4 - 137*x^2 + 196,families_construct_d4_reciprocal/d4_top_curves_summary.csv,5,d4_reciprocal,,,5,D4_t=-137/196,CURBA #5,42,44,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000005_52fa8b17317df482_52fa8b17317df482.xml,ok,14.378,120,50000,3297353425,2.29-7,14.029,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000005_52fa8b17317df482 | d4_reciprocal | D4_t=-137/196 | C5
+f(x) = 196*x^6 - 137*x^4 - 137*x^2 + 196
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000006_eaec9f1fe08cd8f7,eaec9f1fe08cd8f7,196*x^6 + 83*x^4 + 83*x^2 + 196,families_construct_d4_reciprocal/d4_top_curves_summary.csv,6,d4_reciprocal,,,6,D4_t=83/196,CURBA #6,42,44,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000006_eaec9f1fe08cd8f7_eaec9f1fe08cd8f7.xml,ok,15.374,120,50000,1613576406,2.29-7,15.029,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000006_eaec9f1fe08cd8f7 | d4_reciprocal | D4_t=83/196 | C6
+f(x) = 196*x^6 + 83*x^4 + 83*x^2 + 196
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000007_45ec20aa23b88ff0,45ec20aa23b88ff0,225*x^6 - 70*x^4 - 70*x^2 + 225,families_construct_d4_reciprocal/d4_top_curves_summary.csv,7,d4_reciprocal,,,7,D4_t=-14/45,CURBA #7,42,44,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000007_45ec20aa23b88ff0_45ec20aa23b88ff0.xml,ok,25.421,120,50000,3397882059,2.29-7,14.500,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000007_45ec20aa23b88ff0 | d4_reciprocal | D4_t=-14/45 | C7
+f(x) = 225*x^6 - 70*x^4 - 70*x^2 + 225
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000008_c024fdd848c48fbc,c024fdd848c48fbc,9*x^6 - 7*x^4 - 7*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,8,d4_reciprocal,,,8,D4_t=-7/9,CURBA #8,38,40,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000008_c024fdd848c48fbc_c024fdd848c48fbc.xml,ok,15.355,120,50000,1814115537,2.29-7,10.369,129.59MB,,2,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000008_c024fdd848c48fbc | d4_reciprocal | D4_t=-7/9 | C8
+f(x) = 9*x^6 - 7*x^4 - 7*x^2 + 9
+RankBounds: [2, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000009_65a1563454100401,65a1563454100401,25*x^6 + 7*x^4 + 7*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,9,d4_reciprocal,,,9,D4_t=7/25,CURBA #9,38,40,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000009_65a1563454100401_65a1563454100401.xml,ok,15.116,120,50000,1780953801,2.29-7,10.369,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000009_65a1563454100401 | d4_reciprocal | D4_t=7/25 | C9
+f(x) = 25*x^6 + 7*x^4 + 7*x^2 + 25
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000010_c2f6d6b8b780c642,c2f6d6b8b780c642,4*x^6 + 46*x^4 + 46*x^2 + 4,families_construct_d4_reciprocal/d4_top_curves_summary.csv,10,d4_reciprocal,,,10,D4_t=23/2,CURBA #10,38,40,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000010_c2f6d6b8b780c642_c2f6d6b8b780c642.xml,ok,21.831,120,50000,1763979712,2.29-7,11.169,129.59MB,,4,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000010_c2f6d6b8b780c642 | d4_reciprocal | D4_t=23/2 | C10
+f(x) = 4*x^6 + 46*x^4 + 46*x^2 + 4
+RankBounds: [4, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000012_b32252bacb155b2b,b32252bacb155b2b,36*x^6 - 37*x^4 - 37*x^2 + 36,families_construct_d4_reciprocal/d4_top_curves_summary.csv,12,d4_reciprocal,,,12,D4_t=-37/36,CURBA #12,34,36,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000012_b32252bacb155b2b_b32252bacb155b2b.xml,ok,19.257,120,50000,4273186008,2.29-7,10.720,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000012_b32252bacb155b2b | d4_reciprocal | D4_t=-37/36 | C12
+f(x) = 36*x^6 - 37*x^4 - 37*x^2 + 36
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000013_87a56691ef63c40e,87a56691ef63c40e,25*x^6 - 70*x^4 - 70*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,13,d4_reciprocal,,,13,D4_t=-14/5,CURBA #13,34,36,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000013_87a56691ef63c40e_87a56691ef63c40e.xml,ok,11.025,120,50000,2464139875,2.29-7,10.689,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000013_87a56691ef63c40e | d4_reciprocal | D4_t=-14/5 | C13
+f(x) = 25*x^6 - 70*x^4 - 70*x^2 + 25
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000011_b109903d35e6919c,b109903d35e6919c,x^6 + 71*x^4 + 71*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,11,d4_reciprocal,,,11,D4_t=71,CURBA #11,38,40,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000011_b109903d35e6919c_b109903d35e6919c.xml,ok,44.169,120,50000,2530987603,2.29-7,33.840,110.56MB,,6,6,6,,,,,,6,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000011_b109903d35e6919c | d4_reciprocal | D4_t=71 | C11
+f(x) = x^6 + 71*x^4 + 71*x^2 + 1
+RankBounds: [6, 6]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 6
+"
+curve_000014_1844f2128a3c7b10,1844f2128a3c7b10,64*x^6 - 83*x^4 - 83*x^2 + 64,families_construct_d4_reciprocal/d4_top_curves_summary.csv,14,d4_reciprocal,,,14,D4_t=-83/64,CURBA #14,34,36,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000014_1844f2128a3c7b10_1844f2128a3c7b10.xml,ok,11.963,120,50000,2630992992,2.29-7,11.609,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000014_1844f2128a3c7b10 | d4_reciprocal | D4_t=-83/64 | C14
+f(x) = 64*x^6 - 83*x^4 - 83*x^2 + 64
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000015_227214758fbb0374,227214758fbb0374,81*x^6 + 98*x^4 + 98*x^2 + 81,families_construct_d4_reciprocal/d4_top_curves_summary.csv,15,d4_reciprocal,,,15,D4_t=98/81,CURBA #15,34,36,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000015_227214758fbb0374_227214758fbb0374.xml,ok,21.708,120,50000,71917156,2.29-7,12.730,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000015_227214758fbb0374 | d4_reciprocal | D4_t=98/81 | C15
+f(x) = 81*x^6 + 98*x^4 + 98*x^2 + 81
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000016_9d8f933172d4b072,9d8f933172d4b072,100*x^6 - 77*x^4 - 77*x^2 + 100,families_construct_d4_reciprocal/d4_top_curves_summary.csv,16,d4_reciprocal,,,16,D4_t=-77/100,CURBA #16,34,36,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000016_9d8f933172d4b072_9d8f933172d4b072.xml,ok,22.445,120,50000,5069427,2.29-7,13.400,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000016_9d8f933172d4b072 | d4_reciprocal | D4_t=-77/100 | C16
+f(x) = 100*x^6 - 77*x^4 - 77*x^2 + 100
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000017_7473018d5f8304c6,7473018d5f8304c6,121*x^6 - 112*x^4 - 112*x^2 + 121,families_construct_d4_reciprocal/d4_top_curves_summary.csv,17,d4_reciprocal,,,17,D4_t=-112/121,CURBA #17,34,36,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000017_7473018d5f8304c6_7473018d5f8304c6.xml,ok,19.001,120,50000,38754439,2.29-7,11.689,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000017_7473018d5f8304c6 | d4_reciprocal | D4_t=-112/121 | C17
+f(x) = 121*x^6 - 112*x^4 - 112*x^2 + 121
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000018_9057494a79869f31,9057494a79869f31,121*x^6 - 14*x^4 - 14*x^2 + 121,families_construct_d4_reciprocal/d4_top_curves_summary.csv,18,d4_reciprocal,,,18,D4_t=-14/121,CURBA #18,34,36,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000018_9057494a79869f31_9057494a79869f31.xml,ok,20.739,120,50000,475088515,2.29-7,13.390,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000018_9057494a79869f31 | d4_reciprocal | D4_t=-14/121 | C18
+f(x) = 121*x^6 - 14*x^4 - 14*x^2 + 121
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000019_2432e7e9393c207e,2432e7e9393c207e,144*x^6 - 49*x^4 - 49*x^2 + 144,families_construct_d4_reciprocal/d4_top_curves_summary.csv,19,d4_reciprocal,,,19,D4_t=-49/144,CURBA #19,34,36,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000019_2432e7e9393c207e_2432e7e9393c207e.xml,ok,22.842,120,50000,3036277891,2.29-7,14.560,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000019_2432e7e9393c207e | d4_reciprocal | D4_t=-49/144 | C19
+f(x) = 144*x^6 - 49*x^4 - 49*x^2 + 144
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000020_74045a37ec97e7a5,74045a37ec97e7a5,81*x^6 - 164*x^4 - 164*x^2 + 81,families_construct_d4_reciprocal/d4_top_curves_summary.csv,20,d4_reciprocal,,,20,D4_t=-164/81,CURBA #20,34,36,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000020_74045a37ec97e7a5_74045a37ec97e7a5.xml,ok,22.105,120,50000,508773518,2.29-7,14.050,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000020_74045a37ec97e7a5 | d4_reciprocal | D4_t=-164/81 | C20
+f(x) = 81*x^6 - 164*x^4 - 164*x^2 + 81
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000021_70db7b0178481961,70db7b0178481961,196*x^6 - 62*x^4 - 62*x^2 + 196,families_construct_d4_reciprocal/d4_top_curves_summary.csv,21,d4_reciprocal,,,21,D4_t=-31/98,CURBA #21,34,36,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000021_70db7b0178481961_70db7b0178481961.xml,ok,19.068,120,50000,3003116183,2.29-7,14.300,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000021_70db7b0178481961 | d4_reciprocal | D4_t=-31/98 | C21
+f(x) = 196*x^6 - 62*x^4 - 62*x^2 + 196
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000022_84e6d67f5fa1430a,84e6d67f5fa1430a,9*x^6 - 28*x^4 - 28*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,22,d4_reciprocal,,,22,D4_t=-28/9,CURBA #22,26,28,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000022_84e6d67f5fa1430a_84e6d67f5fa1430a.xml,ok,13.575,120,50000,441925807,2.29-7,10.480,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000022_84e6d67f5fa1430a | d4_reciprocal | D4_t=-28/9 | C22
+f(x) = 9*x^6 - 28*x^4 - 28*x^2 + 9
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000024_9f3884daa73b39f3,9f3884daa73b39f3,9*x^6 + 56*x^4 + 56*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,24,d4_reciprocal,,,24,D4_t=56/9,CURBA #24,26,28,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000024_9f3884daa73b39f3_9f3884daa73b39f3.xml,ok,21.021,120,50000,375082194,2.29-7,10.849,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000024_9f3884daa73b39f3 | d4_reciprocal | D4_t=56/9 | C24
+f(x) = 9*x^6 + 56*x^4 + 56*x^2 + 9
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000023_e208cd5c47eed963,e208cd5c47eed963,x^6 + 42*x^4 + 42*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,23,d4_reciprocal,,,23,D4_t=42,CURBA #23,26,28,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000023_e208cd5c47eed963_e208cd5c47eed963.xml,ok,27.755,120,50000,3203655403,2.29-7,21.239,110.56MB,,6,6,6,,,,,,6,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000023_e208cd5c47eed963 | d4_reciprocal | D4_t=42 | C23
+f(x) = x^6 + 42*x^4 + 42*x^2 + 1
+RankBounds: [6, 6]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 6
+"
+curve_000025_872afa3ea1d5a73f,872afa3ea1d5a73f,49*x^6 - 58*x^4 - 58*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,25,d4_reciprocal,,,25,D4_t=-58/49,CURBA #25,26,28,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000025_872afa3ea1d5a73f_872afa3ea1d5a73f.xml,ok,10.542,120,50000,274549445,2.29-7,10.189,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000025_872afa3ea1d5a73f | d4_reciprocal | D4_t=-58/49 | C25
+f(x) = 49*x^6 - 58*x^4 - 58*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000026_3f1c5555f0266aca,3f1c5555f0266aca,49*x^6 - 74*x^4 - 74*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,26,d4_reciprocal,,,26,D4_t=-74/49,CURBA #26,26,28,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000026_3f1c5555f0266aca_3f1c5555f0266aca.xml,ok,21.296,120,50000,744584906,2.29-7,10.230,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000026_3f1c5555f0266aca | d4_reciprocal | D4_t=-74/49 | C26
+f(x) = 49*x^6 - 74*x^4 - 74*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000027_e13a395bff433a05,e13a395bff433a05,81*x^6 - 56*x^4 - 56*x^2 + 81,families_construct_d4_reciprocal/d4_top_curves_summary.csv,27,d4_reciprocal,,,27,D4_t=-56/81,CURBA #27,26,28,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000027_e13a395bff433a05_e13a395bff433a05.xml,ok,21.258,120,50000,2766798034,2.29-7,10.789,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000027_e13a395bff433a05 | d4_reciprocal | D4_t=-56/81 | C27
+f(x) = 81*x^6 - 56*x^4 - 56*x^2 + 81
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000028_b4965c42d0b9015c,b4965c42d0b9015c,49*x^6 - 113*x^4 - 113*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,28,d4_reciprocal,,,28,D4_t=-113/49,CURBA #28,26,28,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000028_b4965c42d0b9015c_b4965c42d0b9015c.xml,ok,19.207,120,50000,677737171,2.29-7,10.019,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000028_b4965c42d0b9015c | d4_reciprocal | D4_t=-113/49 | C28
+f(x) = 49*x^6 - 113*x^4 - 113*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000029_5dcc1cb85af7b8b0,5dcc1cb85af7b8b0,121*x^6 - 47*x^4 - 47*x^2 + 121,families_construct_d4_reciprocal/d4_top_curves_summary.csv,29,d4_reciprocal,,,29,D4_t=-47/121,CURBA #29,26,28,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000029_5dcc1cb85af7b8b0_5dcc1cb85af7b8b0.xml,ok,21.834,120,50000,2699950280,2.29-7,12.589,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000029_5dcc1cb85af7b8b0 | d4_reciprocal | D4_t=-47/121 | C29
+f(x) = 121*x^6 - 47*x^4 - 47*x^2 + 121
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000030_4d35f6bd188d64c7,4d35f6bd188d64c7,121*x^6 - 32*x^4 - 32*x^2 + 121,families_construct_d4_reciprocal/d4_top_curves_summary.csv,30,d4_reciprocal,,,30,D4_t=-32/121,CURBA #30,26,28,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000030_4d35f6bd188d64c7_4d35f6bd188d64c7.xml,ok,23.320,120,50000,2733634875,2.29-7,13.339,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000030_4d35f6bd188d64c7 | d4_reciprocal | D4_t=-32/121 | C30
+f(x) = 121*x^6 - 32*x^4 - 32*x^2 + 121
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000031_3f5e96d8d7e6068d,3f5e96d8d7e6068d,9*x^6 + 138*x^4 + 138*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,31,d4_reciprocal,,,31,D4_t=46/3,CURBA #31,26,28,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000031_3f5e96d8d7e6068d_3f5e96d8d7e6068d.xml,ok,18.545,120,50000,2900491055,2.29-7,11.039,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000031_3f5e96d8d7e6068d | d4_reciprocal | D4_t=46/3 | C31
+f(x) = 9*x^6 + 138*x^4 + 138*x^2 + 9
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000032_a198b1af1a4d804b,a198b1af1a4d804b,121*x^6 + 142*x^4 + 142*x^2 + 121,families_construct_d4_reciprocal/d4_top_curves_summary.csv,32,d4_reciprocal,,,32,D4_t=142/121,CURBA #32,26,28,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000032_a198b1af1a4d804b_a198b1af1a4d804b.xml,ok,19.786,120,50000,610890031,2.29-7,13.099,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000032_a198b1af1a4d804b | d4_reciprocal | D4_t=142/121 | C32
+f(x) = 121*x^6 + 142*x^4 + 142*x^2 + 121
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000033_11963a0eb27f4cb3,11963a0eb27f4cb3,36*x^6 + 147*x^4 + 147*x^2 + 36,families_construct_d4_reciprocal/d4_top_curves_summary.csv,33,d4_reciprocal,,,33,D4_t=49/12,CURBA #33,26,28,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000033_11963a0eb27f4cb3_11963a0eb27f4cb3.xml,ok,19.562,120,50000,644576001,2.29-7,10.650,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000033_11963a0eb27f4cb3 | d4_reciprocal | D4_t=49/12 | C33
+f(x) = 36*x^6 + 147*x^4 + 147*x^2 + 36
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000034_0de3610790b7b0ec,0de3610790b7b0ec,49*x^6 - 158*x^4 - 158*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,34,d4_reciprocal,,,34,D4_t=-158/49,CURBA #34,26,28,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000034_0de3610790b7b0ec_0de3610790b7b0ec.xml,ok,20.211,120,50000,544044313,2.29-7,12.679,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000034_0de3610790b7b0ec | d4_reciprocal | D4_t=-158/49 | C34
+f(x) = 49*x^6 - 158*x^4 - 158*x^2 + 49
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000035_195656533ba3e6b4,195656533ba3e6b4,169*x^6 - 42*x^4 - 42*x^2 + 169,families_construct_d4_reciprocal/d4_top_curves_summary.csv,35,d4_reciprocal,,,35,D4_t=-42/169,CURBA #35,26,28,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000035_195656533ba3e6b4_195656533ba3e6b4.xml,ok,22.652,120,50000,2833645332,2.29-7,13.279,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000035_195656533ba3e6b4 | d4_reciprocal | D4_t=-42/169 | C35
+f(x) = 169*x^6 - 42*x^4 - 42*x^2 + 169
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000036_b4d50b3fa41e70d4,b4d50b3fa41e70d4,169*x^6 + 2*x^4 + 2*x^2 + 169,families_construct_d4_reciprocal/d4_top_curves_summary.csv,36,d4_reciprocal,,,36,D4_t=2/169,CURBA #36,26,28,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000036_b4d50b3fa41e70d4_b4d50b3fa41e70d4.xml,ok,19.915,120,50000,577730320,2.29-7,13.119,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000036_b4d50b3fa41e70d4 | d4_reciprocal | D4_t=2/169 | C36
+f(x) = 169*x^6 + 2*x^4 + 2*x^2 + 169
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000037_10ad163d5a406bb5,10ad163d5a406bb5,169*x^6 + 14*x^4 + 14*x^2 + 169,families_construct_d4_reciprocal/d4_top_curves_summary.csv,37,d4_reciprocal,,,37,D4_t=14/169,CURBA #37,26,28,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000037_10ad163d5a406bb5_10ad163d5a406bb5.xml,ok,20.354,120,50000,863921772,2.29-7,13.529,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000037_10ad163d5a406bb5 | d4_reciprocal | D4_t=14/169 | C37
+f(x) = 169*x^6 + 14*x^4 + 14*x^2 + 169
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000038_4e18937cf9d8123a,4e18937cf9d8123a,9*x^6 + 177*x^4 + 177*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,38,d4_reciprocal,,,38,D4_t=59/3,CURBA #38,26,28,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000038_4e18937cf9d8123a_4e18937cf9d8123a.xml,ok,17.254,120,50000,1275140381,2.29-7,10.460,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000038_4e18937cf9d8123a | d4_reciprocal | D4_t=59/3 | C38
+f(x) = 9*x^6 + 177*x^4 + 177*x^2 + 9
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000039_f17475567e1d4835,f17475567e1d4835,81*x^6 - 199*x^4 - 199*x^2 + 81,families_construct_d4_reciprocal/d4_top_curves_summary.csv,39,d4_reciprocal,,,39,D4_t=-199/81,CURBA #39,26,28,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000039_f17475567e1d4835_f17475567e1d4835.xml,ok,18.906,120,50000,2867330423,2.29-7,12.560,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000039_f17475567e1d4835 | d4_reciprocal | D4_t=-199/81 | C39
+f(x) = 81*x^6 - 199*x^4 - 199*x^2 + 81
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000040_6ac9699fb9257b0e,6ac9699fb9257b0e,225*x^6 - 118*x^4 - 118*x^2 + 225,families_construct_d4_reciprocal/d4_top_curves_summary.csv,40,d4_reciprocal,,,40,D4_t=-118/225,CURBA #40,26,28,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000040_6ac9699fb9257b0e_6ac9699fb9257b0e.xml,ok,23.493,120,50000,3566830385,2.29-7,13.990,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000040_6ac9699fb9257b0e | d4_reciprocal | D4_t=-118/225 | C40
+f(x) = 225*x^6 - 118*x^4 - 118*x^2 + 225
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000041_b7afecfa0c5fc907,b7afecfa0c5fc907,225*x^6 - 102*x^4 - 102*x^2 + 225,families_construct_d4_reciprocal/d4_top_curves_summary.csv,41,d4_reciprocal,,,41,D4_t=-34/75,CURBA #41,26,28,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000041_b7afecfa0c5fc907_b7afecfa0c5fc907.xml,ok,20.659,120,50000,1308826405,2.29-7,13.240,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000041_b7afecfa0c5fc907 | d4_reciprocal | D4_t=-34/75 | C41
+f(x) = 225*x^6 - 102*x^4 - 102*x^2 + 225
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000042_37839f99044ea444,37839f99044ea444,25*x^6 - 7*x^4 - 7*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,42,d4_reciprocal,,,42,D4_t=-7/25,CURBA #42,22,24,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000042_37839f99044ea444_37839f99044ea444.xml,ok,15.816,120,50000,3600515385,2.29-7,9.449,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000042_37839f99044ea444 | d4_reciprocal | D4_t=-7/25 | C42
+f(x) = 25*x^6 - 7*x^4 - 7*x^2 + 25
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000043_2633fefbafd5c6d8,2633fefbafd5c6d8,49*x^6 - 41*x^4 - 41*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,43,d4_reciprocal,,,43,D4_t=-41/49,CURBA #43,22,24,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000043_2633fefbafd5c6d8_2633fefbafd5c6d8.xml,ok,16.872,120,50000,3499984842,2.29-7,10.109,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000043_2633fefbafd5c6d8 | d4_reciprocal | D4_t=-41/49 | C43
+f(x) = 49*x^6 - 41*x^4 - 41*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000044_382b627ce2f42f56,382b627ce2f42f56,49*x^6 + 23*x^4 + 23*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,44,d4_reciprocal,,,44,D4_t=23/49,CURBA #44,22,24,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000044_382b627ce2f42f56_382b627ce2f42f56.xml,ok,20.323,120,50000,1158156520,2.29-7,10.109,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000044_382b627ce2f42f56 | d4_reciprocal | D4_t=23/49 | C44
+f(x) = 49*x^6 + 23*x^4 + 23*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000045_e814219b407177e8,e814219b407177e8,36*x^6 + 62*x^4 + 62*x^2 + 36,families_construct_d4_reciprocal/d4_top_curves_summary.csv,45,d4_reciprocal,,,45,D4_t=31/18,CURBA #45,22,24,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000045_e814219b407177e8_e814219b407177e8.xml,ok,19.710,120,50000,1191842536,2.29-7,9.839,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000045_e814219b407177e8 | d4_reciprocal | D4_t=31/18 | C45
+f(x) = 36*x^6 + 62*x^4 + 62*x^2 + 36
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000046_2a2153bf1d723c23,2a2153bf1d723c23,9*x^6 + 89*x^4 + 89*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,46,d4_reciprocal,,,46,D4_t=89/9,CURBA #46,22,24,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000046_2a2153bf1d723c23_2a2153bf1d723c23.xml,ok,19.570,120,50000,1091310816,2.29-7,9.699,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000046_2a2153bf1d723c23 | d4_reciprocal | D4_t=89/9 | C46
+f(x) = 9*x^6 + 89*x^4 + 89*x^2 + 9
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000047_d7fc9645e9e32578,d7fc9645e9e32578,x^6 + 97*x^4 + 97*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,47,d4_reciprocal,,,47,D4_t=97,CURBA #47,22,24,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000047_d7fc9645e9e32578_d7fc9645e9e32578.xml,ok,25.603,120,50000,3431046041,2.29-7,15.349,110.56MB,,6,6,6,,,,,,6,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000047_d7fc9645e9e32578 | d4_reciprocal | D4_t=97 | C47
+f(x) = x^6 + 97*x^4 + 97*x^2 + 1
+RankBounds: [6, 6]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 6
+"
+curve_000048_c0db572233cd255a,c0db572233cd255a,121*x^6 - 89*x^4 - 89*x^2 + 121,families_construct_d4_reciprocal/d4_top_curves_summary.csv,48,d4_reciprocal,,,48,D4_t=-89/121,CURBA #48,22,24,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000048_c0db572233cd255a_c0db572233cd255a.xml,ok,20.254,120,50000,1595017879,2.29-7,9.949,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000048_c0db572233cd255a | d4_reciprocal | D4_t=-89/121 | C48
+f(x) = 121*x^6 - 89*x^4 - 89*x^2 + 121
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000049_b7b811c164bbfa9a,b7b811c164bbfa9a,121*x^6 + 7*x^4 + 7*x^2 + 121,families_construct_d4_reciprocal/d4_top_curves_summary.csv,49,d4_reciprocal,,,49,D4_t=7/121,CURBA #49,22,24,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000049_b7b811c164bbfa9a_b7b811c164bbfa9a.xml,ok,13.937,120,50000,3464731035,2.29-7,10.039,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000049_b7b811c164bbfa9a | d4_reciprocal | D4_t=7/121 | C49
+f(x) = 121*x^6 + 7*x^4 + 7*x^2 + 121
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000050_16056ae16233f962,16056ae16233f962,169*x^6 - 119*x^4 - 119*x^2 + 169,families_construct_d4_reciprocal/d4_top_curves_summary.csv,50,d4_reciprocal,,,50,D4_t=-119/169,CURBA #50,22,24,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000050_16056ae16233f962_16056ae16233f962.xml,ok,21.003,120,50000,3364200329,2.29-7,10.490,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000050_16056ae16233f962 | d4_reciprocal | D4_t=-119/169 | C50
+f(x) = 169*x^6 - 119*x^4 - 119*x^2 + 169
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000051_7d491cc65fbad3a8,7d491cc65fbad3a8,169*x^6 + 119*x^4 + 119*x^2 + 169,families_construct_d4_reciprocal/d4_top_curves_summary.csv,51,d4_reciprocal,,,51,D4_t=119/169,CURBA #51,22,24,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000051_7d491cc65fbad3a8_7d491cc65fbad3a8.xml,ok,21.133,120,50000,3397885312,2.29-7,10.490,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000051_7d491cc65fbad3a8 | d4_reciprocal | D4_t=119/169 | C51
+f(x) = 169*x^6 + 119*x^4 + 119*x^2 + 169
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000052_7f0a53ef615f2112,7f0a53ef615f2112,9*x^6 + 191*x^4 + 191*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,52,d4_reciprocal,,,52,D4_t=191/9,CURBA #52,22,24,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000052_7f0a53ef615f2112_7f0a53ef615f2112.xml,ok,18.706,120,50000,4105806729,2.29-7,9.640,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000052_7f0a53ef615f2112 | d4_reciprocal | D4_t=191/9 | C52
+f(x) = 9*x^6 + 191*x^4 + 191*x^2 + 9
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000053_deaa51b284a9bb6c,deaa51b284a9bb6c,9*x^6 + 2*x^4 + 2*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,53,d4_reciprocal,,,53,D4_t=2/9,CURBA #53,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000053_deaa51b284a9bb6c_deaa51b284a9bb6c.xml,ok,17.410,120,50000,4139491729,2.29-7,7.900,129.59MB,,1,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000053_deaa51b284a9bb6c | d4_reciprocal | D4_t=2/9 | C53
+f(x) = 9*x^6 + 2*x^4 + 2*x^2 + 9
+RankBounds: [1, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000054_41a04455cdeeb357,41a04455cdeeb357,9*x^6 - 12*x^4 - 12*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,54,d4_reciprocal,,,54,D4_t=-4/3,CURBA #54,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000054_41a04455cdeeb357_41a04455cdeeb357.xml,ok,17.740,120,50000,1360790703,2.29-7,8.060,129.59MB,,1,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000054_41a04455cdeeb357 | d4_reciprocal | D4_t=-4/3 | C54
+f(x) = 9*x^6 - 12*x^4 - 12*x^2 + 9
+RankBounds: [1, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000055_69add07528570264,69add07528570264,16*x^6 + 7*x^4 + 7*x^2 + 16,families_construct_d4_reciprocal/d4_top_curves_summary.csv,55,d4_reciprocal,,,55,D4_t=7/16,CURBA #55,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000055_69add07528570264_69add07528570264.xml,ok,20.638,120,50000,4038961049,2.29-7,9.210,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000055_69add07528570264 | d4_reciprocal | D4_t=7/16 | C55
+f(x) = 16*x^6 + 7*x^4 + 7*x^2 + 16
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000056_2142db6a44ddd91a,2142db6a44ddd91a,25*x^6 - 14*x^4 - 14*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,56,d4_reciprocal,,,56,D4_t=-14/25,CURBA #56,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000056_2142db6a44ddd91a_2142db6a44ddd91a.xml,ok,21.494,120,50000,4072645751,2.29-7,9.550,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000056_2142db6a44ddd91a | d4_reciprocal | D4_t=-14/25 | C56
+f(x) = 25*x^6 - 14*x^4 - 14*x^2 + 25
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000058_7449b816ed4818a2,7449b816ed4818a2,16*x^6 + 31*x^4 + 31*x^2 + 16,families_construct_d4_reciprocal/d4_top_curves_summary.csv,58,d4_reciprocal,,,58,D4_t=31/16,CURBA #58,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000058_7449b816ed4818a2_7449b816ed4818a2.xml,ok,21.156,120,50000,1763982658,2.29-7,9.380,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000058_7449b816ed4818a2 | d4_reciprocal | D4_t=31/16 | C58
+f(x) = 16*x^6 + 31*x^4 + 31*x^2 + 16
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000057_6612a4ffc1e41b75,6612a4ffc1e41b75,x^6 + 28*x^4 + 28*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,57,d4_reciprocal,,,57,D4_t=28,CURBA #57,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000057_6612a4ffc1e41b75_6612a4ffc1e41b75.xml,ok,34.068,120,50000,4239501939,2.29-7,23.280,110.56MB,,4,4,4,,,,,,4,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000057_6612a4ffc1e41b75 | d4_reciprocal | D4_t=28 | C57
+f(x) = x^6 + 28*x^4 + 28*x^2 + 1
+RankBounds: [4, 4]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 4
+"
+curve_000059_3b6a8f62a6cd7827,3b6a8f62a6cd7827,25*x^6 - 31*x^4 - 31*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,59,d4_reciprocal,,,59,D4_t=-31/25,CURBA #59,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000059_3b6a8f62a6cd7827_3b6a8f62a6cd7827.xml,ok,9.998,120,50000,308233406,2.29-7,9.640,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000059_3b6a8f62a6cd7827 | d4_reciprocal | D4_t=-31/25 | C59
+f(x) = 25*x^6 - 31*x^4 - 31*x^2 + 25
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000060_049edaecb7c17392,049edaecb7c17392,25*x^6 + 34*x^4 + 34*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,60,d4_reciprocal,,,60,D4_t=34/25,CURBA #60,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000060_049edaecb7c17392_049edaecb7c17392.xml,ok,17.399,120,50000,1630287150,2.29-7,9.630,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000060_049edaecb7c17392 | d4_reciprocal | D4_t=34/25 | C60
+f(x) = 25*x^6 + 34*x^4 + 34*x^2 + 25
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000061_6563a195265be040,6563a195265be040,36*x^6 - 6*x^4 - 6*x^2 + 36,families_construct_d4_reciprocal/d4_top_curves_summary.csv,61,d4_reciprocal,,,61,D4_t=-1/6,CURBA #61,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000061_6563a195265be040_6563a195265be040.xml,ok,20.575,120,50000,71914197,2.29-7,10.220,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000061_6563a195265be040 | d4_reciprocal | D4_t=-1/6 | C61
+f(x) = 36*x^6 - 6*x^4 - 6*x^2 + 36
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000062_ab1b9972b514c8d2,ab1b9972b514c8d2,25*x^6 - 42*x^4 - 42*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,62,d4_reciprocal,,,62,D4_t=-42/25,CURBA #62,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000062_ab1b9972b514c8d2_ab1b9972b514c8d2.xml,ok,20.739,120,50000,2000298798,2.29-7,9.710,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000062_ab1b9972b514c8d2 | d4_reciprocal | D4_t=-42/25 | C62
+f(x) = 25*x^6 - 42*x^4 - 42*x^2 + 25
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000063_12b5b62a3400a961,12b5b62a3400a961,36*x^6 - 42*x^4 - 42*x^2 + 36,families_construct_d4_reciprocal/d4_top_curves_summary.csv,63,d4_reciprocal,,,63,D4_t=-7/6,CURBA #63,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000063_12b5b62a3400a961_12b5b62a3400a961.xml,ok,19.044,120,50000,1899767083,2.29-7,8.599,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000063_12b5b62a3400a961 | d4_reciprocal | D4_t=-7/6 | C63
+f(x) = 36*x^6 - 42*x^4 - 42*x^2 + 36
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000064_da2b178ff0d952fc,da2b178ff0d952fc,36*x^6 + 42*x^4 + 42*x^2 + 36,families_construct_d4_reciprocal/d4_top_curves_summary.csv,64,d4_reciprocal,,,64,D4_t=7/6,CURBA #64,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000064_da2b178ff0d952fc_da2b178ff0d952fc.xml,ok,19.828,120,50000,105599198,2.29-7,10.189,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000064_da2b178ff0d952fc | d4_reciprocal | D4_t=7/6 | C64
+f(x) = 36*x^6 + 42*x^4 + 42*x^2 + 36
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000065_0f39caf753522903,0f39caf753522903,25*x^6 + 46*x^4 + 46*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,65,d4_reciprocal,,,65,D4_t=46/25,CURBA #65,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000065_0f39caf753522903_0f39caf753522903.xml,ok,21.074,120,50000,1933453087,2.29-7,9.660,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000065_0f39caf753522903 | d4_reciprocal | D4_t=46/25 | C65
+f(x) = 25*x^6 + 46*x^4 + 46*x^2 + 25
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000066_0465570dfaa6b2cb,0465570dfaa6b2cb,16*x^6 - 47*x^4 - 47*x^2 + 16,families_construct_d4_reciprocal/d4_top_curves_summary.csv,66,d4_reciprocal,,,66,D4_t=-47/16,CURBA #66,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000066_0465570dfaa6b2cb_0465570dfaa6b2cb.xml,ok,19.942,120,50000,5068542,2.29-7,9.470,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000066_0465570dfaa6b2cb | d4_reciprocal | D4_t=-47/16 | C66
+f(x) = 16*x^6 - 47*x^4 - 47*x^2 + 16
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000067_cb44a868fb6a9171,cb44a868fb6a9171,25*x^6 + 49*x^4 + 49*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,67,d4_reciprocal,,,67,D4_t=49/25,CURBA #67,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000067_cb44a868fb6a9171_cb44a868fb6a9171.xml,ok,20.683,120,50000,2378226165,2.29-7,9.710,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000067_cb44a868fb6a9171 | d4_reciprocal | D4_t=49/25 | C67
+f(x) = 25*x^6 + 49*x^4 + 49*x^2 + 25
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000068_f27131797329bc02,f27131797329bc02,49*x^6 - 3*x^4 - 3*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,68,d4_reciprocal,,,68,D4_t=-3/49,CURBA #68,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000068_f27131797329bc02_f27131797329bc02.xml,ok,21.253,120,50000,2647705882,2.29-7,10.730,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000068_f27131797329bc02 | d4_reciprocal | D4_t=-3/49 | C68
+f(x) = 49*x^6 - 3*x^4 - 3*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000069_52a2bb70226d8981,52a2bb70226d8981,25*x^6 + 62*x^4 + 62*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,69,d4_reciprocal,,,69,D4_t=62/25,CURBA #69,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000069_52a2bb70226d8981_52a2bb70226d8981.xml,ok,19.204,120,50000,2681391873,2.29-7,9.550,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000069_52a2bb70226d8981 | d4_reciprocal | D4_t=62/25 | C69
+f(x) = 25*x^6 + 62*x^4 + 62*x^2 + 25
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000070_d288b0765c3789e1,d288b0765c3789e1,49*x^6 + 62*x^4 + 62*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,70,d4_reciprocal,,,70,D4_t=62/49,CURBA #70,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000070_d288b0765c3789e1_d288b0765c3789e1.xml,ok,19.633,120,50000,38753512,2.29-7,10.359,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000070_d288b0765c3789e1 | d4_reciprocal | D4_t=62/49 | C70
+f(x) = 49*x^6 + 62*x^4 + 62*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000071_1eb1fa665eb82b16,1eb1fa665eb82b16,x^6 + 64*x^4 + 64*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,71,d4_reciprocal,,,71,D4_t=64,CURBA #71,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000071_1eb1fa665eb82b16_1eb1fa665eb82b16.xml,ok,28.346,120,50000,239294514,2.29-7,17.910,110.56MB,,6,6,6,,,,,,6,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000071_1eb1fa665eb82b16 | d4_reciprocal | D4_t=64 | C71
+f(x) = x^6 + 64*x^4 + 64*x^2 + 1
+RankBounds: [6, 6]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 6
+"
+curve_000072_a3a90fb35e44d424,a3a90fb35e44d424,16*x^6 - 65*x^4 - 65*x^2 + 16,families_construct_d4_reciprocal/d4_top_curves_summary.csv,72,d4_reciprocal,,,72,D4_t=-65/16,CURBA #72,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000072_a3a90fb35e44d424_a3a90fb35e44d424.xml,ok,19.145,120,50000,172448813,2.29-7,9.509,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000072_a3a90fb35e44d424 | d4_reciprocal | D4_t=-65/16 | C72
+f(x) = 16*x^6 - 65*x^4 - 65*x^2 + 16
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000073_52d0d66399dc6c7b,52d0d66399dc6c7b,64*x^6 - 67*x^4 - 67*x^2 + 64,families_construct_d4_reciprocal/d4_top_curves_summary.csv,73,d4_reciprocal,,,73,D4_t=-67/64,CURBA #73,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000073_52d0d66399dc6c7b_52d0d66399dc6c7b.xml,ok,12.068,120,50000,880370202,2.29-7,10.650,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000073_52d0d66399dc6c7b | d4_reciprocal | D4_t=-67/64 | C73
+f(x) = 64*x^6 - 67*x^4 - 67*x^2 + 64
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000074_7e25d423a0a5f3bc,7e25d423a0a5f3bc,36*x^6 - 70*x^4 - 70*x^2 + 36,families_construct_d4_reciprocal/d4_top_curves_summary.csv,74,d4_reciprocal,,,74,D4_t=-35/18,CURBA #74,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000074_7e25d423a0a5f3bc_7e25d423a0a5f3bc.xml,ok,19.881,120,50000,813524576,2.29-7,9.380,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000074_7e25d423a0a5f3bc | d4_reciprocal | D4_t=-35/18 | C74
+f(x) = 36*x^6 - 70*x^4 - 70*x^2 + 36
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000075_3ae30e81fc2d1243,3ae30e81fc2d1243,16*x^6 + 73*x^4 + 73*x^2 + 16,families_construct_d4_reciprocal/d4_top_curves_summary.csv,75,d4_reciprocal,,,75,D4_t=73/16,CURBA #75,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000075_3ae30e81fc2d1243_3ae30e81fc2d1243.xml,ok,18.057,120,50000,2614546231,2.29-7,8.019,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000075_3ae30e81fc2d1243 | d4_reciprocal | D4_t=73/16 | C75
+f(x) = 16*x^6 + 73*x^4 + 73*x^2 + 16
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000076_a241787850df3c1a,a241787850df3c1a,25*x^6 - 80*x^4 - 80*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,76,d4_reciprocal,,,76,D4_t=-16/5,CURBA #76,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000076_a241787850df3c1a_a241787850df3c1a.xml,ok,20.414,120,50000,594441583,2.29-7,10.470,129.59MB,,4,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000076_a241787850df3c1a | d4_reciprocal | D4_t=-16/5 | C76
+f(x) = 25*x^6 - 80*x^4 - 80*x^2 + 25
+RankBounds: [4, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000077_acd17055d161893b,acd17055d161893b,x^6 + 85*x^4 + 85*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,77,d4_reciprocal,,,77,D4_t=85,CURBA #77,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000077_acd17055d161893b_acd17055d161893b.xml,ok,23.711,120,50000,2514010433,2.29-7,11.369,110.56MB,,6,6,6,,,,,,6,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000077_acd17055d161893b | d4_reciprocal | D4_t=85 | C77
+f(x) = x^6 + 85*x^4 + 85*x^2 + 1
+RankBounds: [6, 6]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 6
+"
+curve_000078_077aaf36109737f4,077aaf36109737f4,81*x^6 - 85*x^4 - 85*x^2 + 81,families_construct_d4_reciprocal/d4_top_curves_summary.csv,78,d4_reciprocal,,,78,D4_t=-85/81,CURBA #78,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000078_077aaf36109737f4_077aaf36109737f4.xml,ok,19.996,120,50000,794982739,2.29-7,9.769,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000078_077aaf36109737f4 | d4_reciprocal | D4_t=-85/81 | C78
+f(x) = 81*x^6 - 85*x^4 - 85*x^2 + 81
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000079_55634739451c8043,55634739451c8043,9*x^6 + 87*x^4 + 87*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,79,d4_reciprocal,,,79,D4_t=29/3,CURBA #79,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000079_55634739451c8043_55634739451c8043.xml,ok,16.198,120,50000,694452043,2.29-7,7.950,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000079_55634739451c8043 | d4_reciprocal | D4_t=29/3 | C79
+f(x) = 9*x^6 + 87*x^4 + 87*x^2 + 9
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000080_7fe1a6dda3eff205,7fe1a6dda3eff205,x^6 + 98*x^4 + 98*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,80,d4_reciprocal,,,80,D4_t=98,CURBA #80,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000080_7fe1a6dda3eff205_7fe1a6dda3eff205.xml,ok,28.275,120,50000,728137407,2.29-7,18.730,110.56MB,,6,6,6,,,,,,6,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000080_7fe1a6dda3eff205 | d4_reciprocal | D4_t=98 | C80
+f(x) = x^6 + 98*x^4 + 98*x^2 + 1
+RankBounds: [6, 6]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 6
+"
+curve_000081_79260ddf8ebe2c02,79260ddf8ebe2c02,4*x^6 + 98*x^4 + 98*x^2 + 4,families_construct_d4_reciprocal/d4_top_curves_summary.csv,81,d4_reciprocal,,,81,D4_t=49/2,CURBA #81,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000081_79260ddf8ebe2c02_79260ddf8ebe2c02.xml,ok,22.215,120,50000,2447164776,2.29-7,10.169,129.59MB,,2,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000081_79260ddf8ebe2c02 | d4_reciprocal | D4_t=49/2 | C81
+f(x) = 4*x^6 + 98*x^4 + 98*x^2 + 4
+RankBounds: [2, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000082_31d5af8cf1d18a05,31d5af8cf1d18a05,16*x^6 - 98*x^4 - 98*x^2 + 16,families_construct_d4_reciprocal/d4_top_curves_summary.csv,82,d4_reciprocal,,,82,D4_t=-49/8,CURBA #82,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000082_31d5af8cf1d18a05_31d5af8cf1d18a05.xml,ok,10.672,120,50000,1427636427,2.29-7,9.400,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000082_31d5af8cf1d18a05 | d4_reciprocal | D4_t=-49/8 | C82
+f(x) = 16*x^6 - 98*x^4 - 98*x^2 + 16
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000083_77eb078bbba68449,77eb078bbba68449,9*x^6 + 100*x^4 + 100*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,83,d4_reciprocal,,,83,D4_t=100/9,CURBA #83,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000083_77eb078bbba68449_77eb078bbba68449.xml,ok,20.728,120,50000,1461322461,2.29-7,11.550,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000083_77eb078bbba68449 | d4_reciprocal | D4_t=100/9 | C83
+f(x) = 9*x^6 + 100*x^4 + 100*x^2 + 9
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000084_53b1034a6d201099,53b1034a6d201099,100*x^6 + 47*x^4 + 47*x^2 + 100,families_construct_d4_reciprocal/d4_top_curves_summary.csv,84,d4_reciprocal,,,84,D4_t=47/100,CURBA #84,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000084_53b1034a6d201099_53b1034a6d201099.xml,ok,22.002,120,50000,2850356887,2.29-7,10.720,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000084_53b1034a6d201099 | d4_reciprocal | D4_t=47/100 | C84
+f(x) = 100*x^6 + 47*x^4 + 47*x^2 + 100
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000085_e696e491b7836f41,e696e491b7836f41,4*x^6 + 102*x^4 + 102*x^2 + 4,families_construct_d4_reciprocal/d4_top_curves_summary.csv,85,d4_reciprocal,,,85,D4_t=51/2,CURBA #85,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000085_e696e491b7836f41_e696e491b7836f41.xml,ok,20.347,120,50000,1360790765,2.29-7,11.140,129.59MB,,2,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000085_e696e491b7836f41 | d4_reciprocal | D4_t=51/2 | C85
+f(x) = 4*x^6 + 102*x^4 + 102*x^2 + 4
+RankBounds: [2, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000086_2e9a37dcc476d86b,2e9a37dcc476d86b,16*x^6 - 102*x^4 - 102*x^2 + 16,families_construct_d4_reciprocal/d4_top_curves_summary.csv,86,d4_reciprocal,,,86,D4_t=-51/8,CURBA #86,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000086_2e9a37dcc476d86b_2e9a37dcc476d86b.xml,ok,19.167,120,50000,1394476795,2.29-7,9.539,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000086_2e9a37dcc476d86b | d4_reciprocal | D4_t=-51/8 | C86
+f(x) = 16*x^6 - 102*x^4 - 102*x^2 + 16
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000087_77ea2824836c4613,77ea2824836c4613,81*x^6 - 107*x^4 - 107*x^2 + 81,families_construct_d4_reciprocal/d4_top_curves_summary.csv,87,d4_reciprocal,,,87,D4_t=-107/81,CURBA #87,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000087_77ea2824836c4613_77ea2824836c4613.xml,ok,19.895,120,50000,1595017863,2.29-7,11.119,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000087_77ea2824836c4613 | d4_reciprocal | D4_t=-107/81 | C87
+f(x) = 81*x^6 - 107*x^4 - 107*x^2 + 81
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000088_c66c5f97465581c1,c66c5f97465581c1,81*x^6 + 109*x^4 + 109*x^2 + 81,families_construct_d4_reciprocal/d4_top_curves_summary.csv,88,d4_reciprocal,,,88,D4_t=109/81,CURBA #88,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000088_c66c5f97465581c1_c66c5f97465581c1.xml,ok,24.052,120,50000,2783507180,2.29-7,13.939,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000088_c66c5f97465581c1 | d4_reciprocal | D4_t=109/81 | C88
+f(x) = 81*x^6 + 109*x^4 + 109*x^2 + 81
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000089_a06865810edf437d,a06865810edf437d,25*x^6 - 119*x^4 - 119*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,89,d4_reciprocal,,,89,D4_t=-119/25,CURBA #89,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000089_a06865810edf437d_a06865810edf437d.xml,ok,18.401,120,50000,1494486173,2.29-7,9.419,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000089_a06865810edf437d | d4_reciprocal | D4_t=-119/25 | C89
+f(x) = 25*x^6 - 119*x^4 - 119*x^2 + 25
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000090_71dadb3079021e61,71dadb3079021e61,121*x^6 - 8*x^4 - 8*x^2 + 121,families_construct_d4_reciprocal/d4_top_curves_summary.csv,90,d4_reciprocal,,,90,D4_t=-8/121,CURBA #90,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000090_71dadb3079021e61_71dadb3079021e61.xml,ok,18.904,120,50000,2817192177,2.29-7,12.859,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000090_71dadb3079021e61 | d4_reciprocal | D4_t=-8/121 | C90
+f(x) = 121*x^6 - 8*x^4 - 8*x^2 + 121
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000091_229e1a30089bd8d7,229e1a30089bd8d7,100*x^6 - 126*x^4 - 126*x^2 + 100,families_construct_d4_reciprocal/d4_top_curves_summary.csv,91,d4_reciprocal,,,91,D4_t=-63/50,CURBA #91,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000091_229e1a30089bd8d7_229e1a30089bd8d7.xml,ok,23.872,120,50000,1124996787,2.29-7,13.400,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000091_229e1a30089bd8d7 | d4_reciprocal | D4_t=-63/50 | C91
+f(x) = 100*x^6 - 126*x^4 - 126*x^2 + 100
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000092_d2567e71fa84c284,d2567e71fa84c284,25*x^6 + 130*x^4 + 130*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,92,d4_reciprocal,,,92,D4_t=26/5,CURBA #92,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000092_d2567e71fa84c284_d2567e71fa84c284.xml,ok,17.243,120,50000,2716661443,2.29-7,10.099,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000092_d2567e71fa84c284 | d4_reciprocal | D4_t=26/5 | C92
+f(x) = 25*x^6 + 130*x^4 + 130*x^2 + 25
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000093_938157088e604d3b,938157088e604d3b,36*x^6 + 134*x^4 + 134*x^2 + 36,families_construct_d4_reciprocal/d4_top_curves_summary.csv,93,d4_reciprocal,,,93,D4_t=67/18,CURBA #93,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000093_938157088e604d3b_938157088e604d3b.xml,ok,16.696,120,50000,3264189763,2.29-7,10.080,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000093_938157088e604d3b | d4_reciprocal | D4_t=67/18 | C93
+f(x) = 36*x^6 + 134*x^4 + 134*x^2 + 36
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000094_51e950c28d7907fb,51e950c28d7907fb,81*x^6 - 134*x^4 - 134*x^2 + 81,families_construct_d4_reciprocal/d4_top_curves_summary.csv,94,d4_reciprocal,,,94,D4_t=-134/81,CURBA #94,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000094_51e950c28d7907fb_51e950c28d7907fb.xml,ok,20.204,120,50000,3734210886,2.29-7,9.939,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000094_51e950c28d7907fb | d4_reciprocal | D4_t=-134/81 | C94
+f(x) = 81*x^6 - 134*x^4 - 134*x^2 + 81
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000095_7f8a7de4e049974f,7f8a7de4e049974f,100*x^6 - 134*x^4 - 134*x^2 + 100,families_construct_d4_reciprocal/d4_top_curves_summary.csv,95,d4_reciprocal,,,95,D4_t=-67/50,CURBA #95,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000095_7f8a7de4e049974f_7f8a7de4e049974f.xml,ok,22.361,120,50000,3617226821,2.29-7,12.460,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000095_7f8a7de4e049974f | d4_reciprocal | D4_t=-67/50 | C95
+f(x) = 100*x^6 - 134*x^4 - 134*x^2 + 100
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000096_12924beb896ce67c,12924beb896ce67c,100*x^6 - 138*x^4 - 138*x^2 + 100,families_construct_d4_reciprocal/d4_top_curves_summary.csv,96,d4_reciprocal,,,96,D4_t=-69/50,CURBA #96,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000096_12924beb896ce67c_12924beb896ce67c.xml,ok,19.572,120,50000,3550381178,2.29-7,9.859,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000096_12924beb896ce67c | d4_reciprocal | D4_t=-69/50 | C96
+f(x) = 100*x^6 - 138*x^4 - 138*x^2 + 100
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000097_80092d7b9ecf6828,80092d7b9ecf6828,144*x^6 + 42*x^4 + 42*x^2 + 144,families_construct_d4_reciprocal/d4_top_curves_summary.csv,97,d4_reciprocal,,,97,D4_t=7/24,CURBA #97,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000097_80092d7b9ecf6828_80092d7b9ecf6828.xml,ok,17.705,120,50000,4289898561,2.29-7,10.140,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000097_80092d7b9ecf6828 | d4_reciprocal | D4_t=7/24 | C97
+f(x) = 144*x^6 + 42*x^4 + 42*x^2 + 144
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000098_2fb98037bf58b0ae,2fb98037bf58b0ae,144*x^6 + 119*x^4 + 119*x^2 + 144,families_construct_d4_reciprocal/d4_top_curves_summary.csv,98,d4_reciprocal,,,98,D4_t=119/144,CURBA #98,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000098_2fb98037bf58b0ae_2fb98037bf58b0ae.xml,ok,20.827,120,50000,4055672387,2.29-7,10.609,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000098_2fb98037bf58b0ae | d4_reciprocal | D4_t=119/144 | C98
+f(x) = 144*x^6 + 119*x^4 + 119*x^2 + 144
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000099_1e8fea9a9e9e26aa,1e8fea9a9e9e26aa,100*x^6 - 145*x^4 - 145*x^2 + 100,families_construct_d4_reciprocal/d4_top_curves_summary.csv,99,d4_reciprocal,,,99,D4_t=-29/20,CURBA #99,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000099_1e8fea9a9e9e26aa_1e8fea9a9e9e26aa.xml,ok,20.467,120,50000,1797668407,2.29-7,10.580,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000099_1e8fea9a9e9e26aa | d4_reciprocal | D4_t=-29/20 | C99
+f(x) = 100*x^6 - 145*x^4 - 145*x^2 + 100
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000100_a6f07a753fc65365,a6f07a753fc65365,49*x^6 - 148*x^4 - 148*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,100,d4_reciprocal,,,100,D4_t=-148/49,CURBA #100,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000100_a6f07a753fc65365_a6f07a753fc65365.xml,ok,19.628,120,50000,2530984912,2.29-7,10.269,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000100_a6f07a753fc65365 | d4_reciprocal | D4_t=-148/49 | C100
+f(x) = 49*x^6 - 148*x^4 - 148*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000101_19921e460f87353c,19921e460f87353c,9*x^6 - 151*x^4 - 151*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,101,d4_reciprocal,,,101,D4_t=-151/9,CURBA #101,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000101_19921e460f87353c_19921e460f87353c.xml,ok,20.814,120,50000,172449242,2.29-7,11.359,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000101_19921e460f87353c | d4_reciprocal | D4_t=-151/9 | C101
+f(x) = 9*x^6 - 151*x^4 - 151*x^2 + 9
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000102_8150c6311ff67549,8150c6311ff67549,64*x^6 - 161*x^4 - 161*x^2 + 64,families_construct_d4_reciprocal/d4_top_curves_summary.csv,102,d4_reciprocal,,,102,D4_t=-161/64,CURBA #102,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000102_8150c6311ff67549_8150c6311ff67549.xml,ok,20.037,120,50000,105599464,2.29-7,10.359,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000102_8150c6311ff67549 | d4_reciprocal | D4_t=-161/64 | C102
+f(x) = 64*x^6 - 161*x^4 - 161*x^2 + 64
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000103_6559ea8fa54e80a4,6559ea8fa54e80a4,169*x^6 - 4*x^4 - 4*x^2 + 169,families_construct_d4_reciprocal/d4_top_curves_summary.csv,103,d4_reciprocal,,,103,D4_t=-4/169,CURBA #103,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000103_6559ea8fa54e80a4_6559ea8fa54e80a4.xml,ok,24.383,120,50000,38753769,2.29-7,15.439,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000103_6559ea8fa54e80a4 | d4_reciprocal | D4_t=-4/169 | C103
+f(x) = 169*x^6 - 4*x^4 - 4*x^2 + 169
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000104_70f2b96bc5356184,70f2b96bc5356184,169*x^6 + 65*x^4 + 65*x^2 + 169,families_construct_d4_reciprocal/d4_top_curves_summary.csv,104,d4_reciprocal,,,104,D4_t=5/13,CURBA #104,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000104_70f2b96bc5356184_70f2b96bc5356184.xml,ok,19.719,120,50000,2564148711,2.29-7,10.050,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000104_70f2b96bc5356184 | d4_reciprocal | D4_t=5/13 | C104
+f(x) = 169*x^6 + 65*x^4 + 65*x^2 + 169
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000105_c82349c121b3d51a,c82349c121b3d51a,9*x^6 - 178*x^4 - 178*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,105,d4_reciprocal,,,105,D4_t=-178/9,CURBA #105,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000105_c82349c121b3d51a_c82349c121b3d51a.xml,ok,12.755,120,50000,475089890,2.29-7,9.230,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000105_c82349c121b3d51a | d4_reciprocal | D4_t=-178/9 | C105
+f(x) = 9*x^6 - 178*x^4 - 178*x^2 + 9
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000106_93d14e48eca8839a,93d14e48eca8839a,169*x^6 - 182*x^4 - 182*x^2 + 169,families_construct_d4_reciprocal/d4_top_curves_summary.csv,106,d4_reciprocal,,,106,D4_t=-14/13,CURBA #106,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000106_93d14e48eca8839a_93d14e48eca8839a.xml,ok,19.209,120,50000,3052986659,2.29-7,9.949,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000106_93d14e48eca8839a | d4_reciprocal | D4_t=-14/13 | C106
+f(x) = 169*x^6 - 182*x^4 - 182*x^2 + 169
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000107_51838c9aa4dff273,51838c9aa4dff273,196*x^6 + 70*x^4 + 70*x^2 + 196,families_construct_d4_reciprocal/d4_top_curves_summary.csv,107,d4_reciprocal,,,107,D4_t=5/14,CURBA #107,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000107_51838c9aa4dff273_51838c9aa4dff273.xml,ok,22.092,120,50000,3019827006,2.29-7,10.669,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000107_51838c9aa4dff273 | d4_reciprocal | D4_t=5/14 | C107
+f(x) = 196*x^6 + 70*x^4 + 70*x^2 + 196
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000108_11b2580c0fb1ad75,11b2580c0fb1ad75,225*x^6 - 195*x^4 - 195*x^2 + 225,families_construct_d4_reciprocal/d4_top_curves_summary.csv,108,d4_reciprocal,,,108,D4_t=-13/15,CURBA #108,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000108_11b2580c0fb1ad75_11b2580c0fb1ad75.xml,ok,21.183,120,50000,408243743,2.29-7,10.470,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000108_11b2580c0fb1ad75 | d4_reciprocal | D4_t=-13/15 | C108
+f(x) = 225*x^6 - 195*x^4 - 195*x^2 + 225
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000109_e8a8ae0f93c522fc,e8a8ae0f93c522fc,225*x^6 - 84*x^4 - 84*x^2 + 225,families_construct_d4_reciprocal/d4_top_curves_summary.csv,109,d4_reciprocal,,,109,D4_t=-28/75,CURBA #109,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000109_e8a8ae0f93c522fc_e8a8ae0f93c522fc.xml,ok,22.665,120,50000,3186682160,2.29-7,13.320,129.59MB,,0,8,,8,true,false,8,8,8,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000109_e8a8ae0f93c522fc | d4_reciprocal | D4_t=-28/75 | C109
+f(x) = 225*x^6 - 84*x^4 - 84*x^2 + 225
+RankBounds: [0, 8]
+rank(G) = 8
+finiteIndex = true, proved = false, ub2 = 8
+RANK DETERMINAT: rank J(Q) = 8
+"
+curve_000110_2935c12982a5c8dd,2935c12982a5c8dd,225*x^6 + 12*x^4 + 12*x^2 + 225,families_construct_d4_reciprocal/d4_top_curves_summary.csv,110,d4_reciprocal,,,110,D4_t=4/75,CURBA #110,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000110_2935c12982a5c8dd_2935c12982a5c8dd.xml,ok,20.679,120,50000,375078954,2.29-7,11.160,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000110_2935c12982a5c8dd | d4_reciprocal | D4_t=4/75 | C110
+f(x) = 225*x^6 + 12*x^4 + 12*x^2 + 225
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000111_580124a161cffdba,580124a161cffdba,225*x^6 + 161*x^4 + 161*x^2 + 225,families_construct_d4_reciprocal/d4_top_curves_summary.csv,111,d4_reciprocal,,,111,D4_t=161/225,CURBA #111,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000111_580124a161cffdba_580124a161cffdba.xml,ok,17.584,120,50000,3119836433,2.29-7,10.529,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000111_580124a161cffdba | d4_reciprocal | D4_t=161/225 | C111
+f(x) = 225*x^6 + 161*x^4 + 161*x^2 + 225
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000112_358710ac052b6a67,358710ac052b6a67,225*x^6 + 168*x^4 + 168*x^2 + 225,families_construct_d4_reciprocal/d4_top_curves_summary.csv,112,d4_reciprocal,,,112,D4_t=56/75,CURBA #112,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000112_358710ac052b6a67_358710ac052b6a67.xml,ok,19.537,120,50000,2817192827,2.29-7,10.679,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000112_358710ac052b6a67 | d4_reciprocal | D4_t=56/75 | C112
+f(x) = 225*x^6 + 168*x^4 + 168*x^2 + 225
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000113_5f4d03b84922a98b,5f4d03b84922a98b,225*x^6 + 182*x^4 + 182*x^2 + 225,families_construct_d4_reciprocal/d4_top_curves_summary.csv,113,d4_reciprocal,,,113,D4_t=182/225,CURBA #113,18,20,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000113_5f4d03b84922a98b_5f4d03b84922a98b.xml,ok,19.671,120,50000,2716661118,2.29-7,10.570,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000113_5f4d03b84922a98b | d4_reciprocal | D4_t=182/225 | C113
+f(x) = 225*x^6 + 182*x^4 + 182*x^2 + 225
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000114_146b9544b0d6e5ec,146b9544b0d6e5ec,4*x^6 - 2*x^4 - 2*x^2 + 4,families_construct_d4_reciprocal/d4_top_curves_summary.csv,114,d4_reciprocal,,,114,D4_t=-1/2,CURBA #114,14,16,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000114_146b9544b0d6e5ec_146b9544b0d6e5ec.xml,ok,17.244,120,50000,2917202277,2.29-7,7.910,110.56MB,,4,4,4,,,,,,4,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000114_146b9544b0d6e5ec | d4_reciprocal | D4_t=-1/2 | C114
+f(x) = 4*x^6 - 2*x^4 - 2*x^2 + 4
+RankBounds: [4, 4]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 4
+"
+curve_000115_0b6615ec4ecc6239,0b6615ec4ecc6239,9*x^6 - x^4 - x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,115,d4_reciprocal,,,115,D4_t=-1/9,CURBA #115,14,16,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000115_0b6615ec4ecc6239_0b6615ec4ecc6239.xml,ok,15.576,120,50000,2850356565,2.29-7,6.820,110.56MB,,4,4,4,,,,,,4,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000115_0b6615ec4ecc6239 | d4_reciprocal | D4_t=-1/9 | C115
+f(x) = 9*x^6 - x^4 - x^2 + 9
+RankBounds: [4, 4]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 4
+"
+curve_000116_d001f70093eef465,d001f70093eef465,x^6 + 17*x^4 + 17*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,116,d4_reciprocal,,,116,D4_t=17,CURBA #116,14,16,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000116_d001f70093eef465_d001f70093eef465.xml,ok,26.593,120,50000,778270797,2.29-7,15.179,110.56MB,,4,4,4,,,,,,4,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000116_d001f70093eef465 | d4_reciprocal | D4_t=17 | C116
+f(x) = x^6 + 17*x^4 + 17*x^2 + 1
+RankBounds: [4, 4]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 4
+"
+curve_000117_4137b8edc4a61d1e,4137b8edc4a61d1e,x^6 + 31*x^4 + 31*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,117,d4_reciprocal,,,117,D4_t=31,CURBA #117,14,16,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000117_4137b8edc4a61d1e_4137b8edc4a61d1e.xml,ok,29.883,120,50000,2884042582,2.29-7,16.010,110.56MB,,4,4,4,,,,,,4,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000117_4137b8edc4a61d1e | d4_reciprocal | D4_t=31 | C117
+f(x) = x^6 + 31*x^4 + 31*x^2 + 1
+RankBounds: [4, 4]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 4
+"
+curve_000118_ae33937064f24998,ae33937064f24998,25*x^6 + 73*x^4 + 73*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,118,d4_reciprocal,,,118,D4_t=73/25,CURBA #118,14,16,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000118_ae33937064f24998_ae33937064f24998.xml,ok,12.454,120,50000,3583541564,2.29-7,7.639,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000118_ae33937064f24998 | d4_reciprocal | D4_t=73/25 | C118
+f(x) = 25*x^6 + 73*x^4 + 73*x^2 + 25
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000119_90e99337a826a1cc,90e99337a826a1cc,81*x^6 - 49*x^4 - 49*x^2 + 81,families_construct_d4_reciprocal/d4_top_curves_summary.csv,119,d4_reciprocal,,,119,D4_t=-49/81,CURBA #119,14,16,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000119_90e99337a826a1cc_90e99337a826a1cc.xml,ok,12.833,120,50000,3550382025,2.29-7,9.509,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000119_90e99337a826a1cc | d4_reciprocal | D4_t=-49/81 | C119
+f(x) = 81*x^6 - 49*x^4 - 49*x^2 + 81
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000120_e4b2538e4ad77e5d,e4b2538e4ad77e5d,81*x^6 - 31*x^4 - 31*x^2 + 81,families_construct_d4_reciprocal/d4_top_curves_summary.csv,120,d4_reciprocal,,,120,D4_t=-31/81,CURBA #120,14,16,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000120_e4b2538e4ad77e5d_e4b2538e4ad77e5d.xml,ok,21.916,120,50000,644575410,2.29-7,9.550,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000120_e4b2538e4ad77e5d | d4_reciprocal | D4_t=-31/81 | C120
+f(x) = 81*x^6 - 31*x^4 - 31*x^2 + 81
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000121_f0e9d962f8dbdf20,f0e9d962f8dbdf20,100*x^6 - 2*x^4 - 2*x^2 + 100,families_construct_d4_reciprocal/d4_top_curves_summary.csv,121,d4_reciprocal,,,121,D4_t=-1/50,CURBA #121,14,16,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000121_f0e9d962f8dbdf20_f0e9d962f8dbdf20.xml,ok,20.255,120,50000,3717237208,2.29-7,9.769,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000121_f0e9d962f8dbdf20 | d4_reciprocal | D4_t=-1/50 | C121
+f(x) = 100*x^6 - 2*x^4 - 2*x^2 + 100
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000122_1f42371696644240,1f42371696644240,121*x^6 - 119*x^4 - 119*x^2 + 121,families_construct_d4_reciprocal/d4_top_curves_summary.csv,122,d4_reciprocal,,,122,D4_t=-119/121,CURBA #122,14,16,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000122_1f42371696644240_1f42371696644240.xml,ok,21.266,120,50000,577729678,2.29-7,9.650,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000122_1f42371696644240 | d4_reciprocal | D4_t=-119/121 | C122
+f(x) = 121*x^6 - 119*x^4 - 119*x^2 + 121
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000123_8a7ab64eab061d46,8a7ab64eab061d46,121*x^6 - 103*x^4 - 103*x^2 + 121,families_construct_d4_reciprocal/d4_top_curves_summary.csv,123,d4_reciprocal,,,123,D4_t=-103/121,CURBA #123,14,16,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000123_8a7ab64eab061d46_8a7ab64eab061d46.xml,ok,21.287,120,50000,1014065792,2.29-7,10.359,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000123_8a7ab64eab061d46 | d4_reciprocal | D4_t=-103/121 | C123
+f(x) = 121*x^6 - 103*x^4 - 103*x^2 + 121
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000124_c3e9c05b423743da,c3e9c05b423743da,144*x^6 - 46*x^4 - 46*x^2 + 144,families_construct_d4_reciprocal/d4_top_curves_summary.csv,124,d4_reciprocal,,,124,D4_t=-23/72,CURBA #124,14,16,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000124_c3e9c05b423743da_c3e9c05b423743da.xml,ok,19.551,120,50000,947220104,2.29-7,9.710,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000124_c3e9c05b423743da | d4_reciprocal | D4_t=-23/72 | C124
+f(x) = 144*x^6 - 46*x^4 - 46*x^2 + 144
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000125_8557934aff512400,8557934aff512400,49*x^6 + 151*x^4 + 151*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,125,d4_reciprocal,,,125,D4_t=151/49,CURBA #125,14,16,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000125_8557934aff512400_8557934aff512400.xml,ok,17.576,120,50000,3684077450,2.29-7,7.990,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000125_8557934aff512400 | d4_reciprocal | D4_t=151/49 | C125
+f(x) = 49*x^6 + 151*x^4 + 151*x^2 + 49
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000126_46b6f7848a84e706,46b6f7848a84e706,4*x^6 + 158*x^4 + 158*x^2 + 4,families_construct_d4_reciprocal/d4_top_curves_summary.csv,126,d4_reciprocal,,,126,D4_t=79/2,CURBA #126,14,16,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000126_46b6f7848a84e706_46b6f7848a84e706.xml,ok,18.845,120,50000,880370421,2.29-7,9.210,129.59MB,,2,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000126_46b6f7848a84e706 | d4_reciprocal | D4_t=79/2 | C126
+f(x) = 4*x^6 + 158*x^4 + 158*x^2 + 4
+RankBounds: [2, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000127_2e8d78b1153b9daf,2e8d78b1153b9daf,81*x^6 + 161*x^4 + 161*x^2 + 81,families_construct_d4_reciprocal/d4_top_curves_summary.csv,127,d4_reciprocal,,,127,D4_t=161/81,CURBA #127,14,16,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000127_2e8d78b1153b9daf_2e8d78b1153b9daf.xml,ok,20.617,120,50000,3347747712,2.29-7,9.250,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000127_2e8d78b1153b9daf | d4_reciprocal | D4_t=161/81 | C127
+f(x) = 81*x^6 + 161*x^4 + 161*x^2 + 81
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000128_62620e7ffdacf24b,62620e7ffdacf24b,169*x^6 - 167*x^4 - 167*x^2 + 169,families_construct_d4_reciprocal/d4_top_curves_summary.csv,128,d4_reciprocal,,,128,D4_t=-167/169,CURBA #128,14,16,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000128_62620e7ffdacf24b_62620e7ffdacf24b.xml,ok,21.884,120,50000,3280902070,2.29-7,11.089,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000128_62620e7ffdacf24b | d4_reciprocal | D4_t=-167/169 | C128
+f(x) = 169*x^6 - 167*x^4 - 167*x^2 + 169
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000129_1333107e06332844,1333107e06332844,49*x^6 + 193*x^4 + 193*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,129,d4_reciprocal,,,129,D4_t=193/49,CURBA #129,14,16,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000129_1333107e06332844_1333107e06332844.xml,ok,20.962,120,50000,3414597547,2.29-7,9.550,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000129_1333107e06332844 | d4_reciprocal | D4_t=193/49 | C129
+f(x) = 49*x^6 + 193*x^4 + 193*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000130_cd224bd441d389c0,cd224bd441d389c0,196*x^6 - 194*x^4 - 194*x^2 + 196,families_construct_d4_reciprocal/d4_top_curves_summary.csv,130,d4_reciprocal,,,130,D4_t=-97/98,CURBA #130,14,16,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000130_cd224bd441d389c0_cd224bd441d389c0.xml,ok,20.701,120,50000,1141445265,2.29-7,11.119,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000130_cd224bd441d389c0 | d4_reciprocal | D4_t=-97/98 | C130
+f(x) = 196*x^6 - 194*x^4 - 194*x^2 + 196
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000131_252cb07ccf670b1c,252cb07ccf670b1c,196*x^6 + 46*x^4 + 46*x^2 + 196,families_construct_d4_reciprocal/d4_top_curves_summary.csv,131,d4_reciprocal,,,131,D4_t=23/98,CURBA #131,14,16,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000131_252cb07ccf670b1c_252cb07ccf670b1c.xml,ok,20.705,120,50000,1191842228,2.29-7,9.900,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000131_252cb07ccf670b1c | d4_reciprocal | D4_t=23/98 | C131
+f(x) = 196*x^6 + 46*x^4 + 46*x^2 + 196
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000132_4c2a09b3a9b350ab,4c2a09b3a9b350ab,196*x^6 + 142*x^4 + 142*x^2 + 196,families_construct_d4_reciprocal/d4_top_curves_summary.csv,132,d4_reciprocal,,,132,D4_t=71/98,CURBA #132,14,16,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000132_4c2a09b3a9b350ab_4c2a09b3a9b350ab.xml,ok,18.706,120,50000,1091309639,2.29-7,9.839,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000132_4c2a09b3a9b350ab | d4_reciprocal | D4_t=71/98 | C132
+f(x) = 196*x^6 + 142*x^4 + 142*x^2 + 196
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000133_1ec670a023ad5102,1ec670a023ad5102,x^6 - 2*x^4 - 2*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,133,d4_reciprocal,,,133,D4_t=-2,CURBA #133,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000133_1ec670a023ad5102_1ec670a023ad5102.xml,ok,19.832,120,50000,4055671416,2.29-7,10.099,110.56MB,,2,2,2,,,,,,2,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000133_1ec670a023ad5102 | d4_reciprocal | D4_t=-2 | C133
+f(x) = x^6 - 2*x^4 - 2*x^2 + 1
+RankBounds: [2, 2]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 2
+"
+curve_000134_cfba18f83d6f1ea3,cfba18f83d6f1ea3,4*x^6 - x^4 - x^2 + 4,families_construct_d4_reciprocal/d4_top_curves_summary.csv,134,d4_reciprocal,,,134,D4_t=-1/4,CURBA #134,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000134_cfba18f83d6f1ea3_cfba18f83d6f1ea3.xml,ok,16.965,120,50000,1124995676,2.29-7,6.799,110.56MB,,4,4,4,,,,,,4,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000134_cfba18f83d6f1ea3 | d4_reciprocal | D4_t=-1/4 | C134
+f(x) = 4*x^6 - x^4 - x^2 + 4
+RankBounds: [4, 4]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 4
+"
+curve_000135_1797140f54f26035,1797140f54f26035,x^6 - 7*x^4 - 7*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,135,d4_reciprocal,,,135,D4_t=-7,CURBA #135,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000135_1797140f54f26035_1797140f54f26035.xml,ok,26.369,120,50000,4089356410,2.29-7,17.120,110.56MB,,4,4,4,,,,,,4,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000135_1797140f54f26035 | d4_reciprocal | D4_t=-7 | C135
+f(x) = x^6 - 7*x^4 - 7*x^2 + 1
+RankBounds: [4, 4]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 4
+"
+curve_000136_665cc0a8c5b6f64a,665cc0a8c5b6f64a,4*x^6 + 7*x^4 + 7*x^2 + 4,families_construct_d4_reciprocal/d4_top_curves_summary.csv,136,d4_reciprocal,,,136,D4_t=7/4,CURBA #136,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000136_665cc0a8c5b6f64a_665cc0a8c5b6f64a.xml,ok,21.053,120,50000,1561332854,2.29-7,7.839,129.59MB,,3,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000136_665cc0a8c5b6f64a | d4_reciprocal | D4_t=7/4 | C136
+f(x) = 4*x^6 + 7*x^4 + 7*x^2 + 4
+RankBounds: [3, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000137_111ed948e039ef85,111ed948e039ef85,x^6 + 8*x^4 + 8*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,137,d4_reciprocal,,,137,D4_t=8,CURBA #137,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000137_111ed948e039ef85_111ed948e039ef85.xml,ok,13.703,120,50000,3803164999,2.29-7,10.820,110.56MB,,2,2,2,,,,,,2,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000137_111ed948e039ef85 | d4_reciprocal | D4_t=8 | C137
+f(x) = x^6 + 8*x^4 + 8*x^2 + 1
+RankBounds: [2, 2]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 2
+"
+curve_000138_11f4ee473dd8ffa5,11f4ee473dd8ffa5,4*x^6 - 9*x^4 - 9*x^2 + 4,families_construct_d4_reciprocal/d4_top_curves_summary.csv,138,d4_reciprocal,,,138,D4_t=-9/4,CURBA #138,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000138_11f4ee473dd8ffa5_11f4ee473dd8ffa5.xml,ok,20.151,120,50000,1595018856,2.29-7,7.990,129.59MB,,2,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000138_11f4ee473dd8ffa5 | d4_reciprocal | D4_t=-9/4 | C138
+f(x) = 4*x^6 - 9*x^4 - 9*x^2 + 4
+RankBounds: [2, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000139_0431e872244b4d02,0431e872244b4d02,9*x^6 + 6*x^4 + 6*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,139,d4_reciprocal,,,139,D4_t=2/3,CURBA #139,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000139_0431e872244b4d02_0431e872244b4d02.xml,ok,16.807,120,50000,525487310,2.29-7,7.629,129.59MB,,1,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000139_0431e872244b4d02 | d4_reciprocal | D4_t=2/3 | C139
+f(x) = 9*x^6 + 6*x^4 + 6*x^2 + 9
+RankBounds: [1, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000140_f02bfc467d62ff36,f02bfc467d62ff36,x^6 - 14*x^4 - 14*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,140,d4_reciprocal,,,140,D4_t=-14,CURBA #140,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000140_f02bfc467d62ff36_f02bfc467d62ff36.xml,ok,24.229,120,50000,677739493,2.29-7,12.880,110.56MB,,4,4,4,,,,,,4,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000140_f02bfc467d62ff36 | d4_reciprocal | D4_t=-14 | C140
+f(x) = x^6 - 14*x^4 - 14*x^2 + 1
+RankBounds: [4, 4]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 4
+"
+curve_000141_4ab28ab42e3bf226,4ab28ab42e3bf226,x^6 + 14*x^4 + 14*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,141,d4_reciprocal,,,141,D4_t=14,CURBA #141,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000141_4ab28ab42e3bf226_4ab28ab42e3bf226.xml,ok,24.428,120,50000,2411912908,2.29-7,11.029,110.56MB,,4,4,4,,,,,,4,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000141_4ab28ab42e3bf226 | d4_reciprocal | D4_t=14 | C141
+f(x) = x^6 + 14*x^4 + 14*x^2 + 1
+RankBounds: [4, 4]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 4
+"
+curve_000142_d92afb4e06b94483,d92afb4e06b94483,9*x^6 + 14*x^4 + 14*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,142,d4_reciprocal,,,142,D4_t=14/9,CURBA #142,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000142_d92afb4e06b94483_d92afb4e06b94483.xml,ok,15.067,120,50000,2328353768,2.29-7,7.290,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000142_d92afb4e06b94483 | d4_reciprocal | D4_t=14/9 | C142
+f(x) = 9*x^6 + 14*x^4 + 14*x^2 + 9
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000143_bec9167edb54ddb2,bec9167edb54ddb2,x^6 + 16*x^4 + 16*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,143,d4_reciprocal,,,143,D4_t=16,CURBA #143,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000143_bec9167edb54ddb2_bec9167edb54ddb2.xml,ok,23.621,120,50000,711424477,2.29-7,15.679,110.56MB,,4,4,4,,,,,,4,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000143_bec9167edb54ddb2 | d4_reciprocal | D4_t=16 | C143
+f(x) = x^6 + 16*x^4 + 16*x^2 + 1
+RankBounds: [4, 4]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 4
+"
+curve_000144_2c00fd42843585be,2c00fd42843585be,16*x^6 - 7*x^4 - 7*x^2 + 16,families_construct_d4_reciprocal/d4_top_curves_summary.csv,144,d4_reciprocal,,,144,D4_t=-7/16,CURBA #144,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000144_2c00fd42843585be_2c00fd42843585be.xml,ok,20.465,120,50000,1410926401,2.29-7,7.750,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000144_2c00fd42843585be | d4_reciprocal | D4_t=-7/16 | C144
+f(x) = 16*x^6 - 7*x^4 - 7*x^2 + 16
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000145_a05fd7fa329caf30,a05fd7fa329caf30,16*x^6 + 9*x^4 + 9*x^2 + 16,families_construct_d4_reciprocal/d4_top_curves_summary.csv,145,d4_reciprocal,,,145,D4_t=9/16,CURBA #145,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000145_a05fd7fa329caf30_a05fd7fa329caf30.xml,ok,12.053,120,50000,1444611401,2.29-7,7.740,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000145_a05fd7fa329caf30 | d4_reciprocal | D4_t=9/16 | C145
+f(x) = 16*x^6 + 9*x^4 + 9*x^2 + 16
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000146_33656c87e6a533d4,33656c87e6a533d4,4*x^6 - 17*x^4 - 17*x^2 + 4,families_construct_d4_reciprocal/d4_top_curves_summary.csv,146,d4_reciprocal,,,146,D4_t=-17/4,CURBA #146,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000146_33656c87e6a533d4_33656c87e6a533d4.xml,ok,18.856,120,50000,1344078673,2.29-7,7.280,129.59MB,,2,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000146_33656c87e6a533d4 | d4_reciprocal | D4_t=-17/4 | C146
+f(x) = 4*x^6 - 17*x^4 - 17*x^2 + 4
+RankBounds: [2, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000147_9419c19c45ff5a56,9419c19c45ff5a56,9*x^6 - 17*x^4 - 17*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,147,d4_reciprocal,,,147,D4_t=-17/9,CURBA #147,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000147_9419c19c45ff5a56_9419c19c45ff5a56.xml,ok,20.948,120,50000,1377763673,2.29-7,8.689,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000147_9419c19c45ff5a56 | d4_reciprocal | D4_t=-17/9 | C147
+f(x) = 9*x^6 - 17*x^4 - 17*x^2 + 9
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000148_6b669ab384643cc0,6b669ab384643cc0,9*x^6 + 17*x^4 + 17*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,148,d4_reciprocal,,,148,D4_t=17/9,CURBA #148,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000148_6b669ab384643cc0_6b669ab384643cc0.xml,ok,20.270,120,50000,2227820031,2.29-7,7.540,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000148_6b669ab384643cc0 | d4_reciprocal | D4_t=17/9 | C148
+f(x) = 9*x^6 + 17*x^4 + 17*x^2 + 9
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000149_8cfc6b2d395e54be,8cfc6b2d395e54be,16*x^6 - 17*x^4 - 17*x^2 + 16,families_construct_d4_reciprocal/d4_top_curves_summary.csv,149,d4_reciprocal,,,149,D4_t=-17/16,CURBA #149,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000149_8cfc6b2d395e54be_8cfc6b2d395e54be.xml,ok,18.633,120,50000,2261505849,2.29-7,7.309,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000149_8cfc6b2d395e54be | d4_reciprocal | D4_t=-17/16 | C149
+f(x) = 16*x^6 - 17*x^4 - 17*x^2 + 16
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000150_a8f420269d65b1d2,a8f420269d65b1d2,4*x^6 + 18*x^4 + 18*x^2 + 4,families_construct_d4_reciprocal/d4_top_curves_summary.csv,150,d4_reciprocal,,,150,D4_t=9/2,CURBA #150,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000150_a8f420269d65b1d2_a8f420269d65b1d2.xml,ok,20.124,120,50000,2160972081,2.29-7,7.690,129.59MB,,3,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000150_a8f420269d65b1d2 | d4_reciprocal | D4_t=9/2 | C150
+f(x) = 4*x^6 + 18*x^4 + 18*x^2 + 4
+RankBounds: [3, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000151_da828609563bb7f5,da828609563bb7f5,9*x^6 + 21*x^4 + 21*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,151,d4_reciprocal,,,151,D4_t=7/3,CURBA #151,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000151_da828609563bb7f5_da828609563bb7f5.xml,ok,20.281,120,50000,1578306931,2.29-7,7.589,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000151_da828609563bb7f5 | d4_reciprocal | D4_t=7/3 | C151
+f(x) = 9*x^6 + 21*x^4 + 21*x^2 + 9
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000152_9841bc6ec8407ff9,9841bc6ec8407ff9,16*x^6 - 21*x^4 - 21*x^2 + 16,families_construct_d4_reciprocal/d4_top_curves_summary.csv,152,d4_reciprocal,,,152,D4_t=-21/16,CURBA #152,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000152_9841bc6ec8407ff9_9841bc6ec8407ff9.xml,ok,22.004,120,50000,1477774109,2.29-7,9.669,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000152_9841bc6ec8407ff9 | d4_reciprocal | D4_t=-21/16 | C152
+f(x) = 16*x^6 - 21*x^4 - 21*x^2 + 16
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000153_e51799286de5658b,e51799286de5658b,4*x^6 - 22*x^4 - 22*x^2 + 4,families_construct_d4_reciprocal/d4_top_curves_summary.csv,153,d4_reciprocal,,,153,D4_t=-11/2,CURBA #153,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000153_e51799286de5658b_e51799286de5658b.xml,ok,19.918,120,50000,1511459093,2.29-7,6.240,110.56MB,,4,4,4,,,,,,4,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000153_e51799286de5658b | d4_reciprocal | D4_t=-11/2 | C153
+f(x) = 4*x^6 - 22*x^4 - 22*x^2 + 4
+RankBounds: [4, 4]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 4
+"
+curve_000154_9b52115d530a3be0,9b52115d530a3be0,4*x^6 + 22*x^4 + 22*x^2 + 4,families_construct_d4_reciprocal/d4_top_curves_summary.csv,154,d4_reciprocal,,,154,D4_t=11/2,CURBA #154,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000154_9b52115d530a3be0_9b52115d530a3be0.xml,ok,17.909,120,50000,2194658121,2.29-7,7.589,129.59MB,,2,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000154_9b52115d530a3be0 | d4_reciprocal | D4_t=11/2 | C154
+f(x) = 4*x^6 + 22*x^4 + 22*x^2 + 4
+RankBounds: [2, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000155_ab532190855444ef,ab532190855444ef,x^6 - 23*x^4 - 23*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,155,d4_reciprocal,,,155,D4_t=-23,CURBA #155,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000155_ab532190855444ef_ab532190855444ef.xml,ok,22.798,120,50000,2630995327,2.29-7,10.259,110.56MB,,4,4,4,,,,,,4,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000155_ab532190855444ef | d4_reciprocal | D4_t=-23 | C155
+f(x) = x^6 - 23*x^4 - 23*x^2 + 1
+RankBounds: [4, 4]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 4
+"
+curve_000156_bf6dac1cb9997d18,bf6dac1cb9997d18,16*x^6 + 23*x^4 + 23*x^2 + 16,families_construct_d4_reciprocal/d4_top_curves_summary.csv,156,d4_reciprocal,,,156,D4_t=23/16,CURBA #156,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000156_bf6dac1cb9997d18_bf6dac1cb9997d18.xml,ok,20.829,120,50000,2681392746,2.29-7,7.750,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000156_bf6dac1cb9997d18 | d4_reciprocal | D4_t=23/16 | C156
+f(x) = 16*x^6 + 23*x^4 + 23*x^2 + 16
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000157_5071262d762e2258,5071262d762e2258,4*x^6 + 25*x^4 + 25*x^2 + 4,families_construct_d4_reciprocal/d4_top_curves_summary.csv,157,d4_reciprocal,,,157,D4_t=25/4,CURBA #157,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000157_5071262d762e2258_5071262d762e2258.xml,ok,18.289,120,50000,1141446454,2.29-7,8.599,129.59MB,,2,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000157_5071262d762e2258 | d4_reciprocal | D4_t=25/4 | C157
+f(x) = 4*x^6 + 25*x^4 + 25*x^2 + 4
+RankBounds: [2, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000158_59d0902b0594250d,59d0902b0594250d,25*x^6 - 24*x^4 - 24*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,158,d4_reciprocal,,,158,D4_t=-24/25,CURBA #158,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000158_59d0902b0594250d_59d0902b0594250d.xml,ok,20.260,120,50000,2917203362,2.29-7,8.599,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000158_59d0902b0594250d | d4_reciprocal | D4_t=-24/25 | C158
+f(x) = 25*x^6 - 24*x^4 - 24*x^2 + 25
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000159_c7f14d7d51e7c4bd,c7f14d7d51e7c4bd,25*x^6 - 20*x^4 - 20*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,159,d4_reciprocal,,,159,D4_t=-4/5,CURBA #159,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000159_c7f14d7d51e7c4bd_c7f14d7d51e7c4bd.xml,ok,19.602,120,50000,1175131359,2.29-7,8.210,129.59MB,,2,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000159_c7f14d7d51e7c4bd | d4_reciprocal | D4_t=-4/5 | C159
+f(x) = 25*x^6 - 20*x^4 - 20*x^2 + 25
+RankBounds: [2, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000160_8f7eee0d3cd7b6e9,8f7eee0d3cd7b6e9,25*x^6 - 15*x^4 - 15*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,160,d4_reciprocal,,,160,D4_t=-3/5,CURBA #160,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000160_8f7eee0d3cd7b6e9_8f7eee0d3cd7b6e9.xml,ok,18.942,120,50000,1074598645,2.29-7,7.509,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000160_8f7eee0d3cd7b6e9 | d4_reciprocal | D4_t=-3/5 | C160
+f(x) = 25*x^6 - 15*x^4 - 15*x^2 + 25
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000161_c8a339f4e9678478,c8a339f4e9678478,25*x^6 - 10*x^4 - 10*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,161,d4_reciprocal,,,161,D4_t=-2/5,CURBA #161,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000161_c8a339f4e9678478_c8a339f4e9678478.xml,ok,19.446,120,50000,2833643699,2.29-7,7.549,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000161_c8a339f4e9678478 | d4_reciprocal | D4_t=-2/5 | C161
+f(x) = 25*x^6 - 10*x^4 - 10*x^2 + 25
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000162_d682674e771bdcdc,d682674e771bdcdc,25*x^6 + x^4 + x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,162,d4_reciprocal,,,162,D4_t=1/25,CURBA #162,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000162_d682674e771bdcdc_d682674e771bdcdc.xml,ok,23.432,120,50000,2867329683,2.29-7,11.050,129.59MB,,1,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000162_d682674e771bdcdc | d4_reciprocal | D4_t=1/25 | C162
+f(x) = 25*x^6 + x^4 + x^2 + 25
+RankBounds: [1, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000163_686c2df9facdd297,686c2df9facdd297,25*x^6 + 10*x^4 + 10*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,163,d4_reciprocal,,,163,D4_t=2/5,CURBA #163,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000163_686c2df9facdd297_686c2df9facdd297.xml,ok,21.210,120,50000,1108283645,2.29-7,7.759,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000163_686c2df9facdd297 | d4_reciprocal | D4_t=2/5 | C163
+f(x) = 25*x^6 + 10*x^4 + 10*x^2 + 25
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000165_a2f54d74df8899f9,a2f54d74df8899f9,25*x^6 + 15*x^4 + 15*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,165,d4_reciprocal,,,165,D4_t=3/5,CURBA #165,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000165_a2f54d74df8899f9_a2f54d74df8899f9.xml,ok,19.392,120,50000,2800482041,2.29-7,7.589,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000165_a2f54d74df8899f9 | d4_reciprocal | D4_t=3/5 | C165
+f(x) = 25*x^6 + 15*x^4 + 15*x^2 + 25
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000166_4e0330e3e7843379,4e0330e3e7843379,25*x^6 + 20*x^4 + 20*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,166,d4_reciprocal,,,166,D4_t=4/5,CURBA #166,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000166_4e0330e3e7843379_4e0330e3e7843379.xml,ok,9.784,120,50000,2083597963,2.29-7,8.039,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000166_4e0330e3e7843379 | d4_reciprocal | D4_t=4/5 | C166
+f(x) = 25*x^6 + 20*x^4 + 20*x^2 + 25
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000167_072bfb4401ab1f8f,072bfb4401ab1f8f,25*x^6 + 24*x^4 + 24*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,167,d4_reciprocal,,,167,D4_t=24/25,CURBA #167,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000167_072bfb4401ab1f8f_072bfb4401ab1f8f.xml,ok,9.715,120,50000,2016750210,2.29-7,7.759,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000167_072bfb4401ab1f8f | d4_reciprocal | D4_t=24/25 | C167
+f(x) = 25*x^6 + 24*x^4 + 24*x^2 + 25
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000164_2b22a9ab3e8399c8,2b22a9ab3e8399c8,25*x^6 + 14*x^4 + 14*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,164,d4_reciprocal,,,164,D4_t=14/25,CURBA #164,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000164_2b22a9ab3e8399c8_2b22a9ab3e8399c8.xml,ok,57.397,120,50000,2766795927,2.29-7,48.420,129.59MB,,0,6,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000164_2b22a9ab3e8399c8 | d4_reciprocal | D4_t=14/25 | C164
+f(x) = 25*x^6 + 14*x^4 + 14*x^2 + 25
+RankBounds: [0, 6]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000168_b97e4039adbcee95,b97e4039adbcee95,16*x^6 - 29*x^4 - 29*x^2 + 16,families_construct_d4_reciprocal/d4_top_curves_summary.csv,168,d4_reciprocal,,,168,D4_t=-29/16,CURBA #168,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000168_b97e4039adbcee95_b97e4039adbcee95.xml,ok,11.269,120,50000,2699948274,2.29-7,9.029,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000168_b97e4039adbcee95 | d4_reciprocal | D4_t=-29/16 | C168
+f(x) = 16*x^6 - 29*x^4 - 29*x^2 + 16
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000169_9734b9e832720a36,9734b9e832720a36,9*x^6 - 31*x^4 - 31*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,169,d4_reciprocal,,,169,D4_t=-31/9,CURBA #169,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000169_9734b9e832720a36_9734b9e832720a36.xml,ok,9.161,120,50000,2733634261,2.29-7,7.599,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000169_9734b9e832720a36 | d4_reciprocal | D4_t=-31/9 | C169
+f(x) = 9*x^6 - 31*x^4 - 31*x^2 + 9
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000170_dd270e3a2879fa1d,dd270e3a2879fa1d,9*x^6 + 32*x^4 + 32*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,170,d4_reciprocal,,,170,D4_t=32/9,CURBA #170,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000170_dd270e3a2879fa1d_dd270e3a2879fa1d.xml,ok,18.846,120,50000,3169971253,2.29-7,7.870,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000170_dd270e3a2879fa1d | d4_reciprocal | D4_t=32/9 | C170
+f(x) = 9*x^6 + 32*x^4 + 32*x^2 + 9
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000171_252833b66a3bdc2f,252833b66a3bdc2f,9*x^6 - 33*x^4 - 33*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,171,d4_reciprocal,,,171,D4_t=-11/3,CURBA #171,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000171_252833b66a3bdc2f_252833b66a3bdc2f.xml,ok,20.027,120,50000,2050435231,2.29-7,7.639,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000171_252833b66a3bdc2f | d4_reciprocal | D4_t=-11/3 | C171
+f(x) = 9*x^6 - 33*x^4 - 33*x^2 + 9
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000173_9be4fd97c51e55be,9be4fd97c51e55be,4*x^6 - 34*x^4 - 34*x^2 + 4,families_construct_d4_reciprocal/d4_top_curves_summary.csv,173,d4_reciprocal,,,173,D4_t=-17/2,CURBA #173,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000173_9be4fd97c51e55be_9be4fd97c51e55be.xml,ok,19.408,120,50000,1680422505,2.29-7,6.000,110.56MB,,4,4,4,,,,,,4,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000173_9be4fd97c51e55be | d4_reciprocal | D4_t=-17/2 | C173
+f(x) = 4*x^6 - 34*x^4 - 34*x^2 + 4
+RankBounds: [4, 4]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 4
+"
+curve_000172_a95a46d194c26bc8,a95a46d194c26bc8,x^6 - 34*x^4 - 34*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,172,d4_reciprocal,,,172,D4_t=-34,CURBA #172,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000172_a95a46d194c26bc8_a95a46d194c26bc8.xml,ok,30.312,120,50000,3203657277,2.29-7,18.179,110.56MB,,6,6,6,,,,,,6,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000172_a95a46d194c26bc8 | d4_reciprocal | D4_t=-34 | C172
+f(x) = x^6 - 34*x^4 - 34*x^2 + 1
+RankBounds: [6, 6]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 6
+"
+curve_000174_9503285edca8bbf2,9503285edca8bbf2,25*x^6 - 34*x^4 - 34*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,174,d4_reciprocal,,,174,D4_t=-34/25,CURBA #174,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000174_9503285edca8bbf2_9503285edca8bbf2.xml,ok,10.645,120,50000,3280900972,2.29-7,7.700,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000174_9503285edca8bbf2 | d4_reciprocal | D4_t=-34/25 | C174
+f(x) = 25*x^6 - 34*x^4 - 34*x^2 + 25
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000175_9dd999d994f9f7d7,9dd999d994f9f7d7,25*x^6 + 35*x^4 + 35*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,175,d4_reciprocal,,,175,D4_t=7/5,CURBA #175,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000175_9dd999d994f9f7d7_9dd999d994f9f7d7.xml,ok,19.973,120,50000,1714107484,2.29-7,8.160,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000175_9dd999d994f9f7d7 | d4_reciprocal | D4_t=7/5 | C175
+f(x) = 25*x^6 + 35*x^4 + 35*x^2 + 25
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000176_b61d833791d7e5a1,b61d833791d7e5a1,36*x^6 - 25*x^4 - 25*x^2 + 36,families_construct_d4_reciprocal/d4_top_curves_summary.csv,176,d4_reciprocal,,,176,D4_t=-25/36,CURBA #176,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000176_b61d833791d7e5a1_b61d833791d7e5a1.xml,ok,20.684,120,50000,3717238118,2.29-7,8.369,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000176_b61d833791d7e5a1 | d4_reciprocal | D4_t=-25/36 | C176
+f(x) = 36*x^6 - 25*x^4 - 25*x^2 + 36
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000177_e8b3135134b93ecc,e8b3135134b93ecc,36*x^6 - 3*x^4 - 3*x^2 + 36,families_construct_d4_reciprocal/d4_top_curves_summary.csv,177,d4_reciprocal,,,177,D4_t=-1/12,CURBA #177,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000177_e8b3135134b93ecc_e8b3135134b93ecc.xml,ok,20.462,120,50000,1613574709,2.29-7,8.619,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000177_e8b3135134b93ecc | d4_reciprocal | D4_t=-1/12 | C177
+f(x) = 36*x^6 - 3*x^4 - 3*x^2 + 36
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000178_5778da59010afc46,5778da59010afc46,36*x^6 + 23*x^4 + 23*x^2 + 36,families_construct_d4_reciprocal/d4_top_curves_summary.csv,178,d4_reciprocal,,,178,D4_t=23/36,CURBA #178,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000178_5778da59010afc46_5778da59010afc46.xml,ok,19.665,120,50000,1647259683,2.29-7,8.029,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000178_5778da59010afc46 | d4_reciprocal | D4_t=23/36 | C178
+f(x) = 36*x^6 + 23*x^4 + 23*x^2 + 36
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000179_6a9dade570f644eb,6a9dade570f644eb,36*x^6 + 26*x^4 + 26*x^2 + 36,families_construct_d4_reciprocal/d4_top_curves_summary.csv,179,d4_reciprocal,,,179,D4_t=13/18,CURBA #179,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000179_6a9dade570f644eb_6a9dade570f644eb.xml,ok,20.531,120,50000,1814117927,2.29-7,9.140,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000179_6a9dade570f644eb | d4_reciprocal | D4_t=13/18 | C179
+f(x) = 36*x^6 + 26*x^4 + 26*x^2 + 36
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000180_614f071a4161aa38,614f071a4161aa38,x^6 + 37*x^4 + 37*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,180,d4_reciprocal,,,180,D4_t=37,CURBA #180,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000180_614f071a4161aa38_614f071a4161aa38.xml,ok,28.660,120,50000,1847802899,2.29-7,16.690,110.56MB,,6,6,6,,,,,,6,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000180_614f071a4161aa38 | d4_reciprocal | D4_t=37 | C180
+f(x) = x^6 + 37*x^4 + 37*x^2 + 1
+RankBounds: [6, 6]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 6
+"
+curve_000181_781d802f58494f91,781d802f58494f91,4*x^6 - 41*x^4 - 41*x^2 + 4,families_construct_d4_reciprocal/d4_top_curves_summary.csv,181,d4_reciprocal,,,181,D4_t=-41/4,CURBA #181,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000181_781d802f58494f91_781d802f58494f91.xml,ok,19.781,120,50000,3750924056,2.29-7,7.629,129.59MB,,2,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000181_781d802f58494f91 | d4_reciprocal | D4_t=-41/4 | C181
+f(x) = 4*x^6 - 41*x^4 - 41*x^2 + 4
+RankBounds: [2, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000183_c692b18c27a7342e,c692b18c27a7342e,9*x^6 - 42*x^4 - 42*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,183,d4_reciprocal,,,183,D4_t=-14/3,CURBA #183,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000183_c692b18c27a7342e_c692b18c27a7342e.xml,ok,19.270,120,50000,3650390315,2.29-7,7.519,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000183_c692b18c27a7342e | d4_reciprocal | D4_t=-14/3 | C183
+f(x) = 9*x^6 - 42*x^4 - 42*x^2 + 9
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000184_73cba897976cdda7,73cba897976cdda7,x^6 + 44*x^4 + 44*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,184,d4_reciprocal,,,184,D4_t=44,CURBA #184,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000184_73cba897976cdda7_73cba897976cdda7.xml,ok,12.170,120,50000,3684075717,2.29-7,10.359,110.56MB,,4,4,4,,,,,,4,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000184_73cba897976cdda7 | d4_reciprocal | D4_t=44 | C184
+f(x) = x^6 + 44*x^4 + 44*x^2 + 1
+RankBounds: [4, 4]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 4
+"
+curve_000185_2204f1ca1bb7c664,2204f1ca1bb7c664,9*x^6 + 44*x^4 + 44*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,185,d4_reciprocal,,,185,D4_t=44/9,CURBA #185,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000185_2204f1ca1bb7c664_2204f1ca1bb7c664.xml,ok,7.995,120,50000,3583542978,2.29-7,7.639,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000185_2204f1ca1bb7c664 | d4_reciprocal | D4_t=44/9 | C185
+f(x) = 9*x^6 + 44*x^4 + 44*x^2 + 9
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000186_c3d72f664845d8f8,c3d72f664845d8f8,9*x^6 - 46*x^4 - 46*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,186,d4_reciprocal,,,186,D4_t=-46/9,CURBA #186,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000186_c3d72f664845d8f8_c3d72f664845d8f8.xml,ok,10.254,120,50000,3617228029,2.29-7,7.900,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000186_c3d72f664845d8f8 | d4_reciprocal | D4_t=-46/9 | C186
+f(x) = 9*x^6 - 46*x^4 - 46*x^2 + 9
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000182_d7739acc562f0d9a,d7739acc562f0d9a,25*x^6 + 41*x^4 + 41*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,182,d4_reciprocal,,,182,D4_t=41/25,CURBA #182,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000182_d7739acc562f0d9a_d7739acc562f0d9a.xml,ok,53.401,120,50000,1747270159,2.29-7,50.060,129.59MB,,0,6,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000182_d7739acc562f0d9a | d4_reciprocal | D4_t=41/25 | C182
+f(x) = 25*x^6 + 41*x^4 + 41*x^2 + 25
+RankBounds: [0, 6]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000187_3fb7aae5b49902af,3fb7aae5b49902af,36*x^6 - 46*x^4 - 46*x^2 + 36,families_construct_d4_reciprocal/d4_top_curves_summary.csv,187,d4_reciprocal,,,187,D4_t=-23/18,CURBA #187,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000187_3fb7aae5b49902af_3fb7aae5b49902af.xml,ok,11.899,120,50000,1780956153,2.29-7,9.789,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000187_3fb7aae5b49902af | d4_reciprocal | D4_t=-23/18 | C187
+f(x) = 36*x^6 - 46*x^4 - 46*x^2 + 36
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000188_77263ebf42e0cf80,77263ebf42e0cf80,x^6 - 47*x^4 - 47*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,188,d4_reciprocal,,,188,D4_t=-47,CURBA #188,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000188_77263ebf42e0cf80_77263ebf42e0cf80.xml,ok,20.281,120,50000,2480849466,2.29-7,9.000,110.56MB,,4,4,4,,,,,,4,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000188_77263ebf42e0cf80 | d4_reciprocal | D4_t=-47 | C188
+f(x) = x^6 - 47*x^4 - 47*x^2 + 1
+RankBounds: [4, 4]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 4
+"
+curve_000189_1a4e30699011d1a1,1a4e30699011d1a1,36*x^6 + 47*x^4 + 47*x^2 + 36,families_construct_d4_reciprocal/d4_top_curves_summary.csv,189,d4_reciprocal,,,189,D4_t=47/36,CURBA #189,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000189_1a4e30699011d1a1_1a4e30699011d1a1.xml,ok,19.112,120,50000,2447163462,2.29-7,8.150,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000189_1a4e30699011d1a1 | d4_reciprocal | D4_t=47/36 | C189
+f(x) = 36*x^6 + 47*x^4 + 47*x^2 + 36
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000190_703d123db9fa2629,703d123db9fa2629,9*x^6 + 48*x^4 + 48*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,190,d4_reciprocal,,,190,D4_t=16/3,CURBA #190,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000190_703d123db9fa2629_703d123db9fa2629.xml,ok,18.512,120,50000,2547697226,2.29-7,8.160,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000190_703d123db9fa2629 | d4_reciprocal | D4_t=16/3 | C190
+f(x) = 9*x^6 + 48*x^4 + 48*x^2 + 9
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000192_e6729e7b77a0dba8,e6729e7b77a0dba8,36*x^6 - 49*x^4 - 49*x^2 + 36,families_construct_d4_reciprocal/d4_top_curves_summary.csv,192,d4_reciprocal,,,192,D4_t=-49/36,CURBA #192,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000192_e6729e7b77a0dba8_e6729e7b77a0dba8.xml,ok,20.649,120,50000,3853039321,2.29-7,7.799,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000192_e6729e7b77a0dba8 | d4_reciprocal | D4_t=-49/36 | C192
+f(x) = 36*x^6 - 49*x^4 - 49*x^2 + 36
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000193_7a54024780e43308,7a54024780e43308,49*x^6 - 46*x^4 - 46*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,193,d4_reciprocal,,,193,D4_t=-46/49,CURBA #193,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000193_7a54024780e43308_7a54024780e43308.xml,ok,9.024,120,50000,3803165059,2.29-7,7.839,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000193_7a54024780e43308 | d4_reciprocal | D4_t=-46/49 | C193
+f(x) = 49*x^6 - 46*x^4 - 46*x^2 + 49
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000194_c8d89e8c27e901db,c8d89e8c27e901db,49*x^6 - 36*x^4 - 36*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,194,d4_reciprocal,,,194,D4_t=-36/49,CURBA #194,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000194_c8d89e8c27e901db_c8d89e8c27e901db.xml,ok,11.749,120,50000,2614545002,2.29-7,9.539,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000194_c8d89e8c27e901db | d4_reciprocal | D4_t=-36/49 | C194
+f(x) = 49*x^6 - 36*x^4 - 36*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000191_94b9e3df74af1e71,94b9e3df74af1e71,16*x^6 - 49*x^4 - 49*x^2 + 16,families_construct_d4_reciprocal/d4_top_curves_summary.csv,191,d4_reciprocal,,,191,D4_t=-49/16,CURBA #191,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000191_94b9e3df74af1e71_94b9e3df74af1e71.xml,ok,51.791,120,50000,2514011230,2.29-7,40.679,129.59MB,,0,6,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000191_94b9e3df74af1e71 | d4_reciprocal | D4_t=-49/16 | C191
+f(x) = 16*x^6 - 49*x^4 - 49*x^2 + 16
+RankBounds: [0, 6]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000195_69c5d04df77d9453,69c5d04df77d9453,49*x^6 - 23*x^4 - 23*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,195,d4_reciprocal,,,195,D4_t=-23/49,CURBA #195,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000195_69c5d04df77d9453_69c5d04df77d9453.xml,ok,8.292,120,50000,4239503238,2.29-7,7.799,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000195_69c5d04df77d9453 | d4_reciprocal | D4_t=-23/49 | C195
+f(x) = 49*x^6 - 23*x^4 - 23*x^2 + 49
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000196_22e205a0c621cba7,22e205a0c621cba7,49*x^6 - 22*x^4 - 22*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,196,d4_reciprocal,,,196,D4_t=-22/49,CURBA #196,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000196_22e205a0c621cba7_22e205a0c621cba7.xml,ok,17.626,120,50000,4273188216,2.29-7,8.269,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000196_22e205a0c621cba7 | d4_reciprocal | D4_t=-22/49 | C196
+f(x) = 49*x^6 - 22*x^4 - 22*x^2 + 49
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000197_d81fe5ea1769cca6,d81fe5ea1769cca6,49*x^6 - 8*x^4 - 8*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,197,d4_reciprocal,,,197,D4_t=-8/49,CURBA #197,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000197_d81fe5ea1769cca6_d81fe5ea1769cca6.xml,ok,21.784,120,50000,2244531350,2.29-7,9.679,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000197_d81fe5ea1769cca6 | d4_reciprocal | D4_t=-8/49 | C197
+f(x) = 49*x^6 - 8*x^4 - 8*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000198_2bdde178dafe7b22,2bdde178dafe7b22,49*x^6 - 7*x^4 - 7*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,198,d4_reciprocal,,,198,D4_t=-1/7,CURBA #198,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000198_2bdde178dafe7b22_2bdde178dafe7b22.xml,ok,20.247,120,50000,2311379076,2.29-7,7.900,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000198_2bdde178dafe7b22 | d4_reciprocal | D4_t=-1/7 | C198
+f(x) = 49*x^6 - 7*x^4 - 7*x^2 + 49
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000199_1382cb84127e1a7c,1382cb84127e1a7c,49*x^6 - 2*x^4 - 2*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,199,d4_reciprocal,,,199,D4_t=-2/49,CURBA #199,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000199_1382cb84127e1a7c_1382cb84127e1a7c.xml,ok,18.406,120,50000,4172655456,2.29-7,8.089,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000199_1382cb84127e1a7c | d4_reciprocal | D4_t=-2/49 | C199
+f(x) = 49*x^6 - 2*x^4 - 2*x^2 + 49
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000200_b1d7a12b1fd45202,b1d7a12b1fd45202,49*x^6 + 6*x^4 + 6*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,200,d4_reciprocal,,,200,D4_t=6/49,CURBA #200,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000200_b1d7a12b1fd45202_b1d7a12b1fd45202.xml,ok,21.916,120,50000,4206340420,2.29-7,10.470,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000200_b1d7a12b1fd45202 | d4_reciprocal | D4_t=6/49 | C200
+f(x) = 49*x^6 + 6*x^4 + 6*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000202_68bc6311b846c406,68bc6311b846c406,49*x^6 + 18*x^4 + 18*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,202,d4_reciprocal,,,202,D4_t=18/49,CURBA #202,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000202_68bc6311b846c406_68bc6311b846c406.xml,ok,1692.591,120,50000,1763976134,2.29-7,9.160,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000202_68bc6311b846c406 | d4_reciprocal | D4_t=18/49 | C202
+f(x) = 49*x^6 + 18*x^4 + 18*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000203_11021064c25a91ea,11021064c25a91ea,49*x^6 + 17*x^4 + 17*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,203,d4_reciprocal,,,203,D4_t=17/49,CURBA #203,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000203_11021064c25a91ea_11021064c25a91ea.xml,ok,10.944,120,50000,1847796903,2.29-7,10.580,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000203_11021064c25a91ea | d4_reciprocal | D4_t=17/49 | C203
+f(x) = 49*x^6 + 17*x^4 + 17*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000204_14e01a5939195e2f,14e01a5939195e2f,49*x^6 + 34*x^4 + 34*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,204,d4_reciprocal,,,204,D4_t=34/49,CURBA #204,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000204_14e01a5939195e2f_14e01a5939195e2f.xml,ok,8.166,120,50000,3684078469,2.29-7,7.790,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000204_14e01a5939195e2f | d4_reciprocal | D4_t=34/49 | C204
+f(x) = 49*x^6 + 34*x^4 + 34*x^2 + 49
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000205_8baa6b0b8fc96851,8baa6b0b8fc96851,49*x^6 + 36*x^4 + 36*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,205,d4_reciprocal,,,205,D4_t=36/49,CURBA #205,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000205_8baa6b0b8fc96851_8baa6b0b8fc96851.xml,ok,13.797,120,50000,3650392504,2.29-7,11.599,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000205_8baa6b0b8fc96851 | d4_reciprocal | D4_t=36/49 | C205
+f(x) = 49*x^6 + 36*x^4 + 36*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000206_f07d24a6f0a84d65,f07d24a6f0a84d65,49*x^6 + 47*x^4 + 47*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,206,d4_reciprocal,,,206,D4_t=47/49,CURBA #206,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000206_f07d24a6f0a84d65_f07d24a6f0a84d65.xml,ok,8.516,120,50000,2278215061,2.29-7,8.150,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000206_f07d24a6f0a84d65 | d4_reciprocal | D4_t=47/49 | C206
+f(x) = 49*x^6 + 47*x^4 + 47*x^2 + 49
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000207_3c77545f5f79a16a,3c77545f5f79a16a,4*x^6 - 50*x^4 - 50*x^2 + 4,families_construct_d4_reciprocal/d4_top_curves_summary.csv,207,d4_reciprocal,,,207,D4_t=-25/2,CURBA #207,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000207_3c77545f5f79a16a_3c77545f5f79a16a.xml,ok,8.574,120,50000,3617234848,2.29-7,6.719,110.56MB,,6,6,6,,,,,,6,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000207_3c77545f5f79a16a | d4_reciprocal | D4_t=-25/2 | C207
+f(x) = 4*x^6 - 50*x^4 - 50*x^2 + 4
+RankBounds: [6, 6]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 6
+"
+curve_000208_bda544cc6b865865,bda544cc6b865865,49*x^6 + 52*x^4 + 52*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,208,d4_reciprocal,,,208,D4_t=52/49,CURBA #208,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000208_bda544cc6b865865_bda544cc6b865865.xml,ok,12.882,120,50000,3003119781,2.29-7,9.599,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000208_bda544cc6b865865 | d4_reciprocal | D4_t=52/49 | C208
+f(x) = 49*x^6 + 52*x^4 + 52*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000209_f776d0fa2d1f046b,f776d0fa2d1f046b,4*x^6 - 53*x^4 - 53*x^2 + 4,families_construct_d4_reciprocal/d4_top_curves_summary.csv,209,d4_reciprocal,,,209,D4_t=-53/4,CURBA #209,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000209_f776d0fa2d1f046b_f776d0fa2d1f046b.xml,ok,6.198,120,50000,3583548756,2.29-7,5.820,110.56MB,,4,4,4,,,,,,4,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000209_f776d0fa2d1f046b | d4_reciprocal | D4_t=-53/4 | C209
+f(x) = 4*x^6 - 53*x^4 - 53*x^2 + 4
+RankBounds: [4, 4]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 4
+"
+curve_000210_7800451aadcdd864,7800451aadcdd864,25*x^6 + 53*x^4 + 53*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,210,d4_reciprocal,,,210,D4_t=53/25,CURBA #210,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000210_7800451aadcdd864_7800451aadcdd864.xml,ok,13.495,120,50000,3086679485,2.29-7,9.289,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000210_7800451aadcdd864 | d4_reciprocal | D4_t=53/25 | C210
+f(x) = 25*x^6 + 53*x^4 + 53*x^2 + 25
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000211_7c6254b81e4fd72d,7c6254b81e4fd72d,49*x^6 - 54*x^4 - 54*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,211,d4_reciprocal,,,211,D4_t=-54/49,CURBA #211,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000211_7c6254b81e4fd72d_7c6254b81e4fd72d.xml,ok,10.418,120,50000,3052994443,2.29-7,9.720,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000211_7c6254b81e4fd72d | d4_reciprocal | D4_t=-54/49 | C211
+f(x) = 49*x^6 - 54*x^4 - 54*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000212_5f871fede0aa303c,5f871fede0aa303c,x^6 - 58*x^4 - 58*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,212,d4_reciprocal,,,212,D4_t=-58,CURBA #212,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000212_5f871fede0aa303c_5f871fede0aa303c.xml,ok,12.640,120,50000,3153523103,2.29-7,12.269,110.56MB,,6,6,6,,,,,,6,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000212_5f871fede0aa303c | d4_reciprocal | D4_t=-58 | C212
+f(x) = x^6 - 58*x^4 - 58*x^2 + 1
+RankBounds: [6, 6]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 6
+"
+curve_000213_282be944afb80ec7,282be944afb80ec7,x^6 + 58*x^4 + 58*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,213,d4_reciprocal,,,213,D4_t=58,CURBA #213,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000213_282be944afb80ec7_282be944afb80ec7.xml,ok,16.690,120,50000,3119838187,2.29-7,16.309,110.56MB,,6,6,6,,,,,,6,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000213_282be944afb80ec7 | d4_reciprocal | D4_t=58 | C213
+f(x) = x^6 + 58*x^4 + 58*x^2 + 1
+RankBounds: [6, 6]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 6
+"
+curve_000214_3b80d093ff464e9b,3b80d093ff464e9b,9*x^6 - 58*x^4 - 58*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,214,d4_reciprocal,,,214,D4_t=-58/9,CURBA #214,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000214_3b80d093ff464e9b_3b80d093ff464e9b.xml,ok,8.139,120,50000,3550387070,2.29-7,7.769,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000214_3b80d093ff464e9b | d4_reciprocal | D4_t=-58/9 | C214
+f(x) = 9*x^6 - 58*x^4 - 58*x^2 + 9
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000215_4f8ee636bd97c97b,4f8ee636bd97c97b,16*x^6 + 58*x^4 + 58*x^2 + 16,families_construct_d4_reciprocal/d4_top_curves_summary.csv,215,d4_reciprocal,,,215,D4_t=29/8,CURBA #215,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000215_4f8ee636bd97c97b_4f8ee636bd97c97b.xml,ok,9.753,120,50000,3220370912,2.29-7,7.519,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000215_4f8ee636bd97c97b | d4_reciprocal | D4_t=29/8 | C215
+f(x) = 16*x^6 + 58*x^4 + 58*x^2 + 16
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000216_faf5856ccce4d806,faf5856ccce4d806,25*x^6 - 58*x^4 - 58*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,216,d4_reciprocal,,,216,D4_t=-58/25,CURBA #216,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000216_faf5856ccce4d806_faf5856ccce4d806.xml,ok,12.092,120,50000,3516700931,2.29-7,9.619,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000216_faf5856ccce4d806 | d4_reciprocal | D4_t=-58/25 | C216
+f(x) = 25*x^6 - 58*x^4 - 58*x^2 + 25
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000217_ed2ecaa003fe2159,ed2ecaa003fe2159,49*x^6 - 59*x^4 - 59*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,217,d4_reciprocal,,,217,D4_t=-59/49,CURBA #217,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000217_ed2ecaa003fe2159_ed2ecaa003fe2159.xml,ok,9.957,120,50000,3186685896,2.29-7,9.580,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000217_ed2ecaa003fe2159 | d4_reciprocal | D4_t=-59/49 | C217
+f(x) = 49*x^6 - 59*x^4 - 59*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000201_b37b5d1126fd0239,b37b5d1126fd0239,49*x^6 + 8*x^4 + 8*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,201,d4_reciprocal,,,201,D4_t=8/49,CURBA #201,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000201_b37b5d1126fd0239_b37b5d1126fd0239.xml,ok,1869.079,120,50000,4020414225,2.29-7,9.769,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000201_b37b5d1126fd0239 | d4_reciprocal | D4_t=8/49 | C201
+f(x) = 49*x^6 + 8*x^4 + 8*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000218_a29db9b25eb0e798,a29db9b25eb0e798,x^6 - 62*x^4 - 62*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,218,d4_reciprocal,,,218,D4_t=-62,CURBA #218,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000218_a29db9b25eb0e798_a29db9b25eb0e798.xml,ok,8.672,120,50000,2750343626,2.29-7,8.259,110.56MB,,4,4,4,,,,,,4,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000218_a29db9b25eb0e798 | d4_reciprocal | D4_t=-62 | C218
+f(x) = x^6 - 62*x^4 - 62*x^2 + 1
+RankBounds: [4, 4]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 4
+"
+curve_000219_f77ddb3abb1dd8c6,f77ddb3abb1dd8c6,25*x^6 - 62*x^4 - 62*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,219,d4_reciprocal,,,219,D4_t=-62/25,CURBA #219,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000219_f77ddb3abb1dd8c6_f77ddb3abb1dd8c6.xml,ok,16.093,120,50000,2716657718,2.29-7,7.450,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000219_f77ddb3abb1dd8c6 | d4_reciprocal | D4_t=-62/25 | C219
+f(x) = 25*x^6 - 62*x^4 - 62*x^2 + 25
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000220_bb8b8f834484ea9b,bb8b8f834484ea9b,49*x^6 - 62*x^4 - 62*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,220,d4_reciprocal,,,220,D4_t=-62/49,CURBA #220,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000220_bb8b8f834484ea9b_bb8b8f834484ea9b.xml,ok,21.414,120,50000,3986728223,2.29-7,9.660,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000220_bb8b8f834484ea9b | d4_reciprocal | D4_t=-62/49 | C220
+f(x) = 49*x^6 - 62*x^4 - 62*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000221_216d6f3df01aa4cc,216d6f3df01aa4cc,x^6 + 63*x^4 + 63*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,221,d4_reciprocal,,,221,D4_t=63,CURBA #221,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000221_216d6f3df01aa4cc_216d6f3df01aa4cc.xml,ok,25.525,120,50000,3953565949,2.29-7,12.199,110.56MB,,4,4,4,,,,,,4,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000221_216d6f3df01aa4cc | d4_reciprocal | D4_t=63 | C221
+f(x) = x^6 + 63*x^4 + 63*x^2 + 1
+RankBounds: [4, 4]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 4
+"
+curve_000222_2dda4c38690c57e8,2dda4c38690c57e8,16*x^6 - 63*x^4 - 63*x^2 + 16,families_construct_d4_reciprocal/d4_top_curves_summary.csv,222,d4_reciprocal,,,222,D4_t=-63/16,CURBA #222,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000222_2dda4c38690c57e8_2dda4c38690c57e8.xml,ok,20.224,120,50000,3919880898,2.29-7,9.179,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000222_2dda4c38690c57e8 | d4_reciprocal | D4_t=-63/16 | C222
+f(x) = 16*x^6 - 63*x^4 - 63*x^2 + 16
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000223_3bb2f6553e03792d,3bb2f6553e03792d,9*x^6 - 64*x^4 - 64*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,223,d4_reciprocal,,,223,D4_t=-64/9,CURBA #223,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000223_3bb2f6553e03792d_3bb2f6553e03792d.xml,ok,16.122,120,50000,3886722246,2.29-7,8.380,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000223_3bb2f6553e03792d | d4_reciprocal | D4_t=-64/9 | C223
+f(x) = 9*x^6 - 64*x^4 - 64*x^2 + 9
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000224_3aedddfce9967606,3aedddfce9967606,64*x^6 - 41*x^4 - 41*x^2 + 64,families_construct_d4_reciprocal/d4_top_curves_summary.csv,224,d4_reciprocal,,,224,D4_t=-41/64,CURBA #224,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000224_3aedddfce9967606_3aedddfce9967606.xml,ok,20.872,120,50000,2817191482,2.29-7,10.759,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000224_3aedddfce9967606 | d4_reciprocal | D4_t=-41/64 | C224
+f(x) = 64*x^6 - 41*x^4 - 41*x^2 + 64
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000225_46c6ea4c1c177c40,46c6ea4c1c177c40,64*x^6 - 27*x^4 - 27*x^2 + 64,families_construct_d4_reciprocal/d4_top_curves_summary.csv,225,d4_reciprocal,,,225,D4_t=-27/64,CURBA #225,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000225_46c6ea4c1c177c40_46c6ea4c1c177c40.xml,ok,24.082,120,50000,2783505526,2.29-7,11.750,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000225_46c6ea4c1c177c40 | d4_reciprocal | D4_t=-27/64 | C225
+f(x) = 64*x^6 - 27*x^4 - 27*x^2 + 64
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000226_1bcca3a8d2af3dd0,1bcca3a8d2af3dd0,64*x^6 - 11*x^4 - 11*x^2 + 64,families_construct_d4_reciprocal/d4_top_curves_summary.csv,226,d4_reciprocal,,,226,D4_t=-11/64,CURBA #226,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000226_1bcca3a8d2af3dd0_1bcca3a8d2af3dd0.xml,ok,19.427,120,50000,2884035188,2.29-7,9.369,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000226_1bcca3a8d2af3dd0 | d4_reciprocal | D4_t=-11/64 | C226
+f(x) = 64*x^6 - 11*x^4 - 11*x^2 + 64
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000227_d07e776ca82f88e4,d07e776ca82f88e4,64*x^6 + 7*x^4 + 7*x^2 + 64,families_construct_d4_reciprocal/d4_top_curves_summary.csv,227,d4_reciprocal,,,227,D4_t=7/64,CURBA #227,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000227_d07e776ca82f88e4_d07e776ca82f88e4.xml,ok,17.925,120,50000,3853037266,2.29-7,10.210,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000227_d07e776ca82f88e4 | d4_reciprocal | D4_t=7/64 | C227
+f(x) = 64*x^6 + 7*x^4 + 7*x^2 + 64
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000228_9dab2db5d2d68df8,9dab2db5d2d68df8,64*x^6 + 21*x^4 + 21*x^2 + 64,families_construct_d4_reciprocal/d4_top_curves_summary.csv,228,d4_reciprocal,,,228,D4_t=21/64,CURBA #228,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000228_9dab2db5d2d68df8_9dab2db5d2d68df8.xml,ok,21.378,120,50000,2850349165,2.29-7,10.839,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000228_9dab2db5d2d68df8 | d4_reciprocal | D4_t=21/64 | C228
+f(x) = 64*x^6 + 21*x^4 + 21*x^2 + 64
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000229_da1ec007d5dffae0,da1ec007d5dffae0,64*x^6 + 37*x^4 + 37*x^2 + 64,families_construct_d4_reciprocal/d4_top_curves_summary.csv,229,d4_reciprocal,,,229,D4_t=37/64,CURBA #229,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000229_da1ec007d5dffae0_da1ec007d5dffae0.xml,ok,19.251,120,50000,4139498905,2.29-7,9.539,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000229_da1ec007d5dffae0 | d4_reciprocal | D4_t=37/64 | C229
+f(x) = 64*x^6 + 37*x^4 + 37*x^2 + 64
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000231_bf1ef36257014161,bf1ef36257014161,9*x^6 + 66*x^4 + 66*x^2 + 9,families_construct_d4_reciprocal/d4_top_curves_summary.csv,231,d4_reciprocal,,,231,D4_t=22/3,CURBA #231,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000231_bf1ef36257014161_bf1ef36257014161.xml,ok,18.122,120,50000,4055677568,2.29-7,7.780,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000231_bf1ef36257014161 | d4_reciprocal | D4_t=22/3 | C231
+f(x) = 9*x^6 + 66*x^4 + 66*x^2 + 9
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000232_d0ad31b3ff50d09f,d0ad31b3ff50d09f,4*x^6 + 67*x^4 + 67*x^2 + 4,families_construct_d4_reciprocal/d4_top_curves_summary.csv,232,d4_reciprocal,,,232,D4_t=67/4,CURBA #232,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000232_d0ad31b3ff50d09f_d0ad31b3ff50d09f.xml,ok,10.772,120,50000,2950882903,2.29-7,9.240,129.59MB,,2,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000232_d0ad31b3ff50d09f | d4_reciprocal | D4_t=67/4 | C232
+f(x) = 4*x^6 + 67*x^4 + 67*x^2 + 4
+RankBounds: [2, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000233_029526a480b59eef,029526a480b59eef,25*x^6 + 70*x^4 + 70*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,233,d4_reciprocal,,,233,D4_t=14/5,CURBA #233,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000233_029526a480b59eef_029526a480b59eef.xml,ok,8.701,120,50000,3550386905,2.29-7,7.849,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000233_029526a480b59eef | d4_reciprocal | D4_t=14/5 | C233
+f(x) = 25*x^6 + 70*x^4 + 70*x^2 + 25
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000230_21921cbcb68bd541,21921cbcb68bd541,64*x^6 + 47*x^4 + 47*x^2 + 64,families_construct_d4_reciprocal/d4_top_curves_summary.csv,230,d4_reciprocal,,,230,D4_t=47/64,CURBA #230,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000230_21921cbcb68bd541_21921cbcb68bd541.xml,ok,49.693,120,50000,4089362568,2.29-7,40.450,129.59MB,,0,6,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000230_21921cbcb68bd541 | d4_reciprocal | D4_t=47/64 | C230
+f(x) = 64*x^6 + 47*x^4 + 47*x^2 + 64
+RankBounds: [0, 6]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000234_71332b86a0a543fe,71332b86a0a543fe,25*x^6 - 71*x^4 - 71*x^2 + 25,families_construct_d4_reciprocal/d4_top_curves_summary.csv,234,d4_reciprocal,,,234,D4_t=-71/25,CURBA #234,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000234_71332b86a0a543fe_71332b86a0a543fe.xml,ok,12.587,120,50000,3516700888,2.29-7,10.529,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000234_71332b86a0a543fe | d4_reciprocal | D4_t=-71/25 | C234
+f(x) = 25*x^6 - 71*x^4 - 71*x^2 + 25
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000235_e175fb620ca4cedc,e175fb620ca4cedc,36*x^6 + 71*x^4 + 71*x^2 + 36,families_construct_d4_reciprocal/d4_top_curves_summary.csv,235,d4_reciprocal,,,235,D4_t=71/36,CURBA #235,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000235_e175fb620ca4cedc_e175fb620ca4cedc.xml,ok,18.099,120,50000,239289736,2.29-7,7.639,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000235_e175fb620ca4cedc | d4_reciprocal | D4_t=71/36 | C235
+f(x) = 36*x^6 + 71*x^4 + 71*x^2 + 36
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000236_e5e100fd5eb37d54,e5e100fd5eb37d54,49*x^6 - 71*x^4 - 71*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,236,d4_reciprocal,,,236,D4_t=-71/49,CURBA #236,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000236_e5e100fd5eb37d54_e5e100fd5eb37d54.xml,ok,17.552,120,50000,205604787,2.29-7,8.089,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000236_e5e100fd5eb37d54 | d4_reciprocal | D4_t=-71/49 | C236
+f(x) = 49*x^6 - 71*x^4 - 71*x^2 + 49
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000237_a6756aedba4eb410,a6756aedba4eb410,49*x^6 - 72*x^4 - 72*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,237,d4_reciprocal,,,237,D4_t=-72/49,CURBA #237,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000237_a6756aedba4eb410_a6756aedba4eb410.xml,ok,20.065,120,50000,38750645,2.29-7,9.410,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000237_a6756aedba4eb410 | d4_reciprocal | D4_t=-72/49 | C237
+f(x) = 49*x^6 - 72*x^4 - 72*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000238_7bc689bd33b7e46d,7bc689bd33b7e46d,4*x^6 - 73*x^4 - 73*x^2 + 4,families_construct_d4_reciprocal/d4_top_curves_summary.csv,238,d4_reciprocal,,,238,D4_t=-73/4,CURBA #238,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000238_7bc689bd33b7e46d_7bc689bd33b7e46d.xml,ok,22.141,120,50000,3617234656,2.29-7,10.240,129.59MB,,2,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000238_7bc689bd33b7e46d | d4_reciprocal | D4_t=-73/4 | C238
+f(x) = 4*x^6 - 73*x^4 - 73*x^2 + 4
+RankBounds: [2, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000239_09a05fc6c14ec5a3,09a05fc6c14ec5a3,49*x^6 + 73*x^4 + 73*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,239,d4_reciprocal,,,239,D4_t=73/49,CURBA #239,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000239_09a05fc6c14ec5a3_09a05fc6c14ec5a3.xml,ok,19.249,120,50000,5065677,2.29-7,7.839,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000239_09a05fc6c14ec5a3 | d4_reciprocal | D4_t=73/49 | C239
+f(x) = 49*x^6 + 73*x^4 + 73*x^2 + 49
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000240_6f1bda20b10e6c96,6f1bda20b10e6c96,16*x^6 + 74*x^4 + 74*x^2 + 16,families_construct_d4_reciprocal/d4_top_curves_summary.csv,240,d4_reciprocal,,,240,D4_t=37/8,CURBA #240,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000240_6f1bda20b10e6c96_6f1bda20b10e6c96.xml,ok,17.292,120,50000,610889714,2.29-7,7.519,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000240_6f1bda20b10e6c96 | d4_reciprocal | D4_t=37/8 | C240
+f(x) = 16*x^6 + 74*x^4 + 74*x^2 + 16
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000241_a5da181705eea1ea,a5da181705eea1ea,4*x^6 + 77*x^4 + 77*x^2 + 4,families_construct_d4_reciprocal/d4_top_curves_summary.csv,241,d4_reciprocal,,,241,D4_t=77/4,CURBA #241,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000241_a5da181705eea1ea_a5da181705eea1ea.xml,ok,20.756,120,50000,3297349019,2.29-7,9.429,129.59MB,,2,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000241_a5da181705eea1ea | d4_reciprocal | D4_t=77/4 | C241
+f(x) = 4*x^6 + 77*x^4 + 77*x^2 + 4
+RankBounds: [2, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000242_25aca97475cd9359,25aca97475cd9359,x^6 - 79*x^4 - 79*x^2 + 1,families_construct_d4_reciprocal/d4_top_curves_summary.csv,242,d4_reciprocal,,,242,D4_t=-79,CURBA #242,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000242_25aca97475cd9359_25aca97475cd9359.xml,ok,22.862,120,50000,3397878707,2.29-7,10.390,110.56MB,,6,6,6,,,,,,6,determined_by_RankBounds,RankBounds_lb_eq_ub,GRH,,,"============================================================
+curve_000242_25aca97475cd9359 | d4_reciprocal | D4_t=-79 | C242
+f(x) = x^6 - 79*x^4 - 79*x^2 + 1
+RankBounds: [6, 6]
+RANK DETERMINAT DIRECT DIN RankBounds: rank J(Q) = 6
+"
+curve_000243_f348a0b6f2af28b0,f348a0b6f2af28b0,36*x^6 + 79*x^4 + 79*x^2 + 36,families_construct_d4_reciprocal/d4_top_curves_summary.csv,243,d4_reciprocal,,,243,D4_t=79/36,CURBA #243,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000243_f348a0b6f2af28b0_f348a0b6f2af28b0.xml,ok,19.747,120,50000,3364192687,2.29-7,8.130,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000243_f348a0b6f2af28b0 | d4_reciprocal | D4_t=79/36 | C243
+f(x) = 36*x^6 + 79*x^4 + 79*x^2 + 36
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000244_89bcc7cd6144f0b7,89bcc7cd6144f0b7,49*x^6 - 79*x^4 - 79*x^2 + 49,families_construct_d4_reciprocal/d4_top_curves_summary.csv,244,d4_reciprocal,,,244,D4_t=-79/49,CURBA #244,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000244_89bcc7cd6144f0b7_89bcc7cd6144f0b7.xml,ok,18.891,120,50000,577726925,2.29-7,9.289,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000244_89bcc7cd6144f0b7 | d4_reciprocal | D4_t=-79/49 | C244
+f(x) = 49*x^6 - 79*x^4 - 79*x^2 + 49
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000246_df540adfdee89eb8,df540adfdee89eb8,81*x^6 - 62*x^4 - 62*x^2 + 81,families_construct_d4_reciprocal/d4_top_curves_summary.csv,246,d4_reciprocal,,,246,D4_t=-62/81,CURBA #246,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000246_df540adfdee89eb8_df540adfdee89eb8.xml,ok,21.130,120,50000,1047753763,2.29-7,9.689,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000246_df540adfdee89eb8 | d4_reciprocal | D4_t=-62/81 | C246
+f(x) = 81*x^6 - 62*x^4 - 62*x^2 + 81
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000247_651f7f13a7f2b59d,651f7f13a7f2b59d,81*x^6 - 52*x^4 - 52*x^2 + 81,families_construct_d4_reciprocal/d4_top_curves_summary.csv,247,d4_reciprocal,,,247,D4_t=-52/81,CURBA #247,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000247_651f7f13a7f2b59d_651f7f13a7f2b59d.xml,ok,10.113,120,50000,1014068780,2.29-7,9.750,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000247_651f7f13a7f2b59d | d4_reciprocal | D4_t=-52/81 | C247
+f(x) = 81*x^6 - 52*x^4 - 52*x^2 + 81
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000245_42071d443aaa2be2,42071d443aaa2be2,64*x^6 + 79*x^4 + 79*x^2 + 64,families_construct_d4_reciprocal/d4_top_curves_summary.csv,245,d4_reciprocal,,,245,D4_t=79/64,CURBA #245,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000245_42071d443aaa2be2_42071d443aaa2be2.xml,ok,50.482,120,50000,544041511,2.29-7,39.649,129.59MB,,0,6,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000245_42071d443aaa2be2 | d4_reciprocal | D4_t=79/64 | C245
+f(x) = 64*x^6 + 79*x^4 + 79*x^2 + 64
+RankBounds: [0, 6]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000248_42c13c043d32b931,42c13c043d32b931,81*x^6 - 48*x^4 - 48*x^2 + 81,families_construct_d4_reciprocal/d4_top_curves_summary.csv,248,d4_reciprocal,,,248,D4_t=-16/27,CURBA #248,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000248_42c13c043d32b931_42c13c043d32b931.xml,ok,10.235,120,50000,3464726109,2.29-7,9.859,129.59MB,,0,6,,6,true,false,6,6,6,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000248_42c13c043d32b931 | d4_reciprocal | D4_t=-16/27 | C248
+f(x) = 81*x^6 - 48*x^4 - 48*x^2 + 81
+RankBounds: [0, 6]
+rank(G) = 6
+finiteIndex = true, proved = false, ub2 = 6
+RANK DETERMINAT: rank J(Q) = 6
+"
+curve_000249_b6031786de85c0fb,b6031786de85c0fb,81*x^6 - 34*x^4 - 34*x^2 + 81,families_construct_d4_reciprocal/d4_top_curves_summary.csv,249,d4_reciprocal,,,249,D4_t=-34/81,CURBA #249,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000249_b6031786de85c0fb_b6031786de85c0fb.xml,ok,9.335,120,50000,980906012,2.29-7,8.099,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000249_b6031786de85c0fb | d4_reciprocal | D4_t=-34/81 | C249
+f(x) = 81*x^6 - 34*x^4 - 34*x^2 + 81
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"
+curve_000250_d5e234d556897778,d5e234d556897778,81*x^6 - 32*x^4 - 32*x^2 + 81,families_construct_d4_reciprocal/d4_top_curves_summary.csv,250,d4_reciprocal,,,250,D4_t=-32/81,CURBA #250,10,12,,,,1,magma_rank_results_d4_reciprocal/xml/curve_000250_d5e234d556897778_d5e234d556897778.xml,ok,18.490,120,50000,914062459,2.29-7,8.300,129.59MB,,0,4,,4,true,false,4,4,4,determined_by_MordellWeilGroupGenus2,finiteIndex_true_and_rankG_eq_ub2,GRH,,,"============================================================
+curve_000250_d5e234d556897778 | d4_reciprocal | D4_t=-32/81 | C250
+f(x) = 81*x^6 - 32*x^4 - 32*x^2 + 81
+RankBounds: [0, 4]
+rank(G) = 4
+finiteIndex = true, proved = false, ub2 = 4
+RANK DETERMINAT: rank J(Q) = 4
+"

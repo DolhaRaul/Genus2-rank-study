@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+xml/
+xml_bad_cache/
+xml_offline/
+*.pdf

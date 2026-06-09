@@ -1,0 +1,420 @@
+I am working on a dissertation titled “Study of genus 2 hyperelliptic curves”. The dissertation studies explicit families of genus 2 hyperelliptic curves over Q, with two main goals:
+
+1. to construct subfamilies of curves with many rational points;
+2. to study the Mordell–Weil ranks of the Jacobians of the best curves obtained.
+
+The theoretical motivation is that a genus 2 hyperelliptic curve C does not carry a natural group law on C(Q), unlike an elliptic curve. The relevant arithmetic object is instead the Jacobian J(C), and the main invariant studied computationally is rank J(C)(Q). Rational points on C are useful because they produce divisor classes on J(C). The guiding heuristic is that curves with many rational points may provide many divisor classes, and therefore may lead to Jacobians of large Mordell–Weil rank.
+
+The dissertation constructs three main types of families.
+
+1. General interpolation family
+
+The first family has the form
+
+    F(x) = P_q(x) + H(x) Q(x),
+
+where
+
+    H(x) = product_i (x - r_i),
+
+and the r_i are prescribed rational abscissae. The polynomial q(x) is usually quadratic,
+
+    q(x) = u x^2 + v x + w,
+
+and P_q(x) is the remainder of q(x)^2 modulo H(x). Equivalently, P_q is the Lagrange interpolation polynomial satisfying
+
+    P_q(r_i) = q(r_i)^2.
+
+Therefore every curve in the same subfamily contains the common forced rational points
+
+    (r_i, ±q(r_i)).
+
+For deg(H) = 4, Q(x) is quadratic; for deg(H) = 5, Q(x) is linear; for deg(H) = 6, Q(x) is constant. The coefficients of Q are varied to obtain individual curves inside the same subfamily.
+
+The important methodological correction is that the experiment should not rank isolated curves collected from unrelated subfamilies. Instead, the goal is to rank subfamilies determined by common forced rational points, such that the first k = 5 candidate curves inside the same subfamily all have strong point counts and, later, strong Mordell–Weil rank behavior.
+
+2. Even interpolation family
+
+The second family is a specialization of the first family. Here q, H, and Q are required to be even polynomials. Consequently,
+
+    F(-x) = F(x),
+
+and every curve in this family admits the rational non-hyperelliptic involution
+
+    (x, y) -> (-x, y).
+
+A typical construction is
+
+    q(x) = u x^2 + w,
+    H(x) = product_j (x^2 - r_j^2),
+    Q(x) = A x^2 + B,
+
+where A is chosen to be a rational square. This ensures that the leading coefficient of F is a square and therefore that the two points at infinity of the degree 6 model are rational.
+
+This family is expected to produce more rational points because a point (x, y) often generates additional rational points through the hyperelliptic involution and the symmetry x -> -x. It is also arithmetically interesting because genus 2 curves with a non-hyperelliptic involution are often related to elliptic quotient curves.
+
+3. Reciprocal / D4-symmetric family
+
+The third family is obtained by imposing both
+
+    (x, y) -> (-x, y)
+
+and
+
+    (x, y) -> (1/x, y/x^3).
+
+This leads to polynomials of the form
+
+    F(x) = s x^6 + b x^4 + b x^2 + s.
+
+When s is a rational square, the curve is Q-isomorphic to a normalized one-parameter model
+
+    y^2 = x^6 + t x^4 + t x^2 + 1,
+
+where t = b/s. For the non-exceptional parameters considered in the dissertation, the rational automorphism group is isomorphic to D4. In this family, rational points can be expanded into automorphism orbits.
+
+Computational pipeline
+
+The computational pipeline consists of several scripts.
+
+A. General-family scanner
+
+Script:
+
+    scan_general_common_forced_families_two_stage_parallel_balanced.py
+
+Purpose:
+
+This script scans the general interpolation family
+
+    F(x) = P_q(x) + H(x) Q(x)
+
+with no imposed rational automorphism.
+
+It searches over many possible subfamilies determined by common forced rational points. Important hyperparameters include:
+
+    - M_VALUES, specifying the number of forced abscissae and therefore deg(H);
+    - numerator and denominator bounds for the rational abscissae r_i;
+    - maximum number of r-tuples tested;
+    - coefficient pools for q(x);
+    - MAX_Q_PER_RS, used to avoid spending the search budget on only the first few r-tuples;
+    - MAX_FORCED_FAMILIES, the maximum number of forced subfamilies tested;
+    - PARI_HEIGHT_STAGE1 and PARI_HEIGHT_STAGE2;
+    - L_PARAM_POOL_STAGE1 and L_PARAM_POOL_STAGE2, the coefficient pools for Q;
+    - TOP_FAMILIES_TO_REFINE;
+    - TOP_FINAL_FAMILIES;
+    - TOP_CURVES_PER_FAMILY = 5;
+    - TARGET_AFFINE_1 and TARGET_AFFINE_2, lower thresholds for affine point counts.
+
+The script works in two stages:
+
+    Stage 1: broad screening with smaller PARI height and a moderate Q-coefficient pool.
+    Stage 2: refinement of only the best subfamilies using larger PARI height and possibly denser parameter pools.
+
+For each candidate curve, it records:
+
+    - F(x);
+    - Height(F);
+    - forced rational points;
+    - extra rational points found;
+    - number of additional rational abscissae;
+    - affine point count;
+    - projective lower bound, equal to affine_point_count + 2, because the two points at infinity are rational.
+
+Inside a fixed subfamily, curves are sorted by
+
+    (-affine_point_count, height_F, -extra_x_count).
+
+Thus the best curves are those with more affine rational points; ties are broken by smaller height and then by more distinct additional rational abscissae.
+
+Subfamilies are sorted using the behavior of their top k = 5 candidate curves:
+
+    - top_k_affine_ge_target2;
+    - top_k_affine_ge_target1;
+    - top_k_min_affine;
+    - top_k_sum_affine;
+    - best_affine_point_count;
+    - best_projective_lower_bound;
+    - best_height_F.
+
+Thus a good subfamily is not merely one containing a single exceptional curve. It is one whose first 5 curves are collectively strong.
+
+B. Even-family scanner
+
+Script:
+
+    scan_even_automorphism_two_stage_parallel_rational_AB.py
+
+Purpose:
+
+This script performs the analogous two-stage search for the even family with the rational automorphism
+
+    (x, y) -> (-x, y).
+
+The construction is
+
+    F(x) = P_q(x) + H(x) Q(x),
+
+where
+
+    q(x) = u x^2 + w,
+    H(x) = product_j (x^2 - r_j^2),
+    Q(x) = A x^2 + B,
+
+and A is a rational square.
+
+The script allows rational values for the base a in A = a^2 and rational values for B. It uses analogous hyperparameters:
+
+    - N_FORCED_PAIRS;
+    - bounds on rational positive roots r_j;
+    - coefficient pools for q;
+    - rational pools for A and B;
+    - Stage 1 and Stage 2 PARI heights;
+    - TOP_CURVES_PER_FAMILY = 5;
+    - TARGET_AFFINE_1 and TARGET_AFFINE_2;
+    - TOP_FAMILIES_TO_REFINE;
+    - TOP_FINAL_FAMILIES.
+
+The ranking philosophy is the same as in the general family: subfamilies are preferred when their top 5 curves have consistently high rational point counts.
+
+C. Integral model generator
+
+Script:
+
+    create_integral_models_from_stage2_details.py
+
+Purpose:
+
+After the best subfamilies and their top curves are found, this script creates integral isomorphic models for the top curves saved in the Stage 2 details files.
+
+The input curves have the form
+
+    C : y^2 = F(x),    F in Q[x].
+
+If D is the least common multiple of all denominators of the coefficients of F, the coordinate change is
+
+    X* = X,
+    Y* = D Y.
+
+Then
+
+    (Y*)^2 = D^2 F(X*) = F_integral(X*),
+
+where F_integral lies in Z[x].
+
+The script extracts each curve F(x) from the Stage 2 details files and writes:
+
+    - F_original;
+    - D_lcm_denominators;
+    - F_integral;
+    - height of F_original;
+    - height of F_integral;
+    - squarefreeness checks;
+    - family metadata;
+    - curve metadata;
+    - a Magma-friendly data file.
+
+The integral models are used for the Magma rank computations.
+
+D. Asynchronous Magma rank-computation script
+
+Script:
+
+    request_magma_ranks_from_integral_models_async_robust_v3_global_rate_limiter_FIXED.py
+
+Purpose:
+
+This script computes or bounds Mordell–Weil ranks for the Jacobians of the selected curves, using their integral models.
+
+Input:
+
+    - all_stage2_integral_models_summary.csv for the general family;
+    - all_stage2_integral_models_summary.csv for the even family;
+    - analogous files if available for the D4 family.
+
+Main behavior:
+
+    1. Read all input CSV files.
+    2. Deduplicate curves by exact F_integral string.
+    3. Assign a unique ID and hash to every distinct integral polynomial.
+    4. Keep an appearances mapping, so that a curve appearing in several places can still be linked back to all its subfamily occurrences.
+    5. Send one request per unique F_integral to the Magma Online Calculator.
+    6. Save the raw XML response immediately.
+    7. Parse the Magma output.
+    8. Write both unique-curve rank results and all-appearance rank results.
+
+The script is asynchronous but uses conservative settings because the Magma Online Calculator is a public service. It uses:
+
+    - CONCURRENCY = 2;
+    - GLOBAL_MIN_SECONDS_BETWEEN_REQUEST_STARTS = 25.0;
+    - REQUEST_TIMEOUT_SECONDS = 180;
+    - MAX_HTTP_RETRIES = 3;
+    - XML cache/resume logic;
+    - transient-status reruns;
+    - offline detection and probing;
+    - separate folders for good XML, bad cache XML, and offline XML.
+
+For each curve, the generated Magma script performs:
+
+    Qx<x> := PolynomialRing(Rationals());
+    f := F_integral;
+    SetClassGroupBounds("GRH");
+    C := HyperellipticCurve(f);
+    J := Jacobian(C);
+    lb, ub := RankBounds(J);
+
+If lb = ub, the rank is assigned directly:
+
+    rank_Jacobian = lb.
+
+If lb < ub, the script runs:
+
+    G, phi, finiteIndex, proved, ub2 := MordellWeilGroupGenus2(J : RankOnly := true);
+    rg := TorsionFreeRank(G);
+
+Then:
+
+    - if finiteIndex = true and rg = ub2, set rank_Jacobian = rg;
+    - otherwise mark the rank as not fully determined by this request.
+
+The script parses and records fields such as:
+
+    - rankbounds_lb;
+    - rankbounds_ub;
+    - rank_direct;
+    - rank_g;
+    - finiteIndex;
+    - proved;
+    - ub2;
+    - final_rank_printed;
+    - rank_Jacobian;
+    - rank_status;
+    - rank_source;
+    - assumption = GRH if used;
+    - magma_error;
+    - unresolved;
+    - time;
+    - memory;
+    - warning;
+    - xml_file;
+    - request_status.
+
+The output files include:
+
+    - unique_curves_to_magma.csv;
+    - curve_appearances_mapping.csv;
+    - magma_rank_results_unique.csv;
+    - magma_rank_results_all_appearances.csv;
+    - magma_rank_failed_requests.csv.
+
+The file magma_rank_results_unique.csv contains one row per unique integral polynomial. The file magma_rank_results_all_appearances.csv joins the rank results back to all appearances of each curve in the selected subfamilies.
+
+Current dissertation reporting strategy
+
+The corrected dissertation reports results at the subfamily level. A subfamily is a set of curves sharing the same imposed rational point data. In the main text, only selected subfamilies and representative rank results should be shown. Full details, including all technical columns, Magma XML identifiers, execution times, seeds, failed statuses, and complete curve-level data, should be placed in an appendix or in a clean accompanying repository.
+
+Goal of the next script
+
+I now need a script that ranks the best subfamilies from each of the three general constructions using the rank results obtained from Magma.
+
+The script should not rank isolated curves collected from unrelated subfamilies. It must rank subfamilies, where each subfamily is characterized by common metadata such as:
+
+    - construction_kind: general, even_automorphism, or D4/reciprocal;
+    - execution_relative_dir;
+    - family_index;
+    - family_label;
+    - m, rs, abs_roots, forced_xs, depending on family type;
+    - q(x);
+    - H(x);
+    - Pq(x);
+    - forced_points, if present.
+
+For each subfamily, the script should examine the first k = 5 candidate curves. The value k should be configurable.
+
+The script should compute rank-based metrics such as:
+
+    - top_k_count;
+    - number of top k curves with a successful Magma request;
+    - number of top k curves whose rank_Jacobian was determined;
+    - number of top k curves with only RankBounds available;
+    - number of top k curves not closed after MordellWeilGroupGenus2;
+    - number of top k curves with timeout;
+    - number of top k curves with memory limit;
+    - number of top k curves with request errors;
+    - number of top k curves with rank_Jacobian >= R1;
+    - number of top k curves with rank_Jacobian >= R2;
+    - number of top k curves with rank_Jacobian >= R3;
+    - minimum determined rank among the top k curves;
+    - maximum determined rank;
+    - sum of determined ranks;
+    - average determined rank;
+    - median determined rank;
+    - number of ranks determined directly by RankBounds;
+    - number of ranks determined by MordellWeilGroupGenus2 using finiteIndex;
+    - number of curves with finiteIndex = true;
+    - number of curves with proved = true;
+    - number of curves using GRH;
+    - average Magma time, when available;
+    - maximum Magma time, when available;
+    - total Magma time, when available.
+
+The thresholds R1, R2, R3 should be configurable, for example:
+
+    R1 = 3,
+    R2 = 5,
+    R3 = 7.
+
+The script should also preserve point-search metrics, such as:
+
+    - top_k_min_affine;
+    - top_k_max_affine;
+    - top_k_sum_affine;
+    - top_k_avg_affine;
+    - top_k_min_projective;
+    - top_k_sum_projective;
+    - top_k_min_extra_x;
+    - top_k_sum_extra_x;
+    - best_affine_point_count;
+    - best_projective_lower_bound;
+    - best_height_F;
+    - average height among the top k curves;
+    - maximum height among the top k curves.
+
+A possible lexicographic ranking key for subfamilies is:
+
+    1. maximize number of top k curves with determined rank;
+    2. maximize number of top k curves with rank >= R3;
+    3. maximize number of top k curves with rank >= R2;
+    4. maximize number of top k curves with rank >= R1;
+    5. maximize minimum determined rank among the top k curves;
+    6. maximize sum of determined ranks;
+    7. maximize average determined rank;
+    8. maximize number of successful Magma runs;
+    9. minimize number of timeouts, memory failures, request errors, and unresolved computations;
+    10. maximize top_k_min_affine;
+    11. maximize top_k_sum_affine;
+    12. maximize top_k_min_extra_x;
+    13. minimize average or best height.
+
+The script should output:
+
+    - ranked_subfamilies.csv, one row per subfamily;
+    - ranked_subfamilies_detailed_curves.csv, one row per curve with inherited subfamily rank;
+    - selected_subfamilies_report.txt, a readable report of the best subfamilies;
+    - optional LaTeX tables for the dissertation;
+    - optional JSON files for reproducibility.
+
+The script should be robust to:
+
+    - missing rank_Jacobian;
+    - timeout statuses;
+    - memory-limit statuses;
+    - request errors;
+    - empty fields;
+    - duplicate curves;
+    - the same curve appearing in multiple subfamilies;
+    - rows where rank information is available only in the unique-results file and must be joined back to all appearances.
+
+The script should preferably use magma_rank_results_all_appearances.csv as the primary input, because it already maps the rank results of unique integral models back to every curve occurrence in its subfamily. If needed, it may also read stage2_integral_models_summary.csv files to recover additional family-level metadata that is not present in the Magma output.
+
+Please write a Python script that implements this ranking procedure.
