@@ -160,7 +160,7 @@ python scripts/rank_subfamilies.py
 ## Citation
 
 If you use this code or data, please cite the dissertation:
-> Dolha, R. (2026). *Study of genus 2 hyperelliptic curves*. Master's dissertation.
+> Dolha, R. (2026). *Explicit families of genus 2 hyperelliptic curves with many rational points and high-rank Jacobians*. Master's dissertation.
 
 ## License
 
