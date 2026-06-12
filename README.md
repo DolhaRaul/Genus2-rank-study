@@ -1,6 +1,6 @@
 # Genus 2 Hyperelliptic Curves — Mordell–Weil Rank Study
 
-This repository contains the computational pipeline and results for the dissertation *"Study of genus 2 hyperelliptic curves"*. The project constructs families of genus 2 hyperelliptic curves over ℚ with many rational points, then computes (or bounds) the Mordell–Weil ranks of their Jacobians.
+This repository contains the computational pipeline and results for the dissertation *"Explicit families of genus 2 hyperelliptic curves with many rational points and high-rank Jacobians"*. The project constructs families of genus 2 hyperelliptic curves over ℚ with many rational points, then computes (or bounds) the Mordell–Weil ranks of their Jacobians.
 
 ## Overview
 
