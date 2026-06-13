@@ -1,0 +1,20 @@
+====================================================================================================
+SUBFAMILY RANKING REPORT
+TOP_K = 5  |  RANK_THRESHOLDS = R1=6, R2=8, R3=10
+Showing top 30 subfamilies out of 1 total
+====================================================================================================
+
+RANK #1  |  d4_reciprocal  |  D4_t=-97/36  |  family_index=
+  execution_dir : 
+  top_k curves  : 5
+  determined    : 5 / 5
+  ranks         : [6, 8, 8, 8, 8]
+  min/max/sum   : 6 / 8 / 38
+  avg / median  : 7.6 / 8
+  >= R1=6       : 5
+  >= R2=8       : 4
+  >= R3=10       : 0
+  n_failed      : 0 (timeout=0, mem=0, req_err=0)
+  affine counts : min=42  sum=210  best=42
+  extra_x       : min=None  sum=None
+----------------------------------------------------------------------------------------------------

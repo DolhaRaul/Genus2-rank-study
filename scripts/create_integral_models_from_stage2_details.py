@@ -57,6 +57,12 @@ from datetime import datetime
 # CONFIGURATION
 # ============================================================
 
+# Each entry defines an input directory tree to scan for stage2_refined_details.txt
+# and an output directory for the integral models. The script is family-agnostic:
+# it reads any stage2_refined_details.txt, extracts F(x), and computes the
+# integral isomorphic model via (X, Y) -> (X, L*Y) where L = lcm of denominators.
+#
+# Add or remove entries as needed for your families.
 SOURCE_ROOTS = [
     {
         "kind": "even_automorphism",
@@ -67,6 +73,16 @@ SOURCE_ROOTS = [
         "kind": "general",
         "input_root": Path("families_construct_general_two_stage"),
         "output_root": Path("families_construct_general_two_stage_integral_models"),
+    },
+    {
+        "kind": "general_non_monic",
+        "input_root": Path("families_construct_general_two_stage_non_monic"),
+        "output_root": Path("families_construct_general_two_stage_integral_models_non_monic"),
+    },
+    {
+        "kind": "d4_reciprocal",
+        "input_root": Path("families_construct_d4_reciprocal"),
+        "output_root": Path("families_construct_d4_reciprocal_integral_models"),
     },
 ]
 

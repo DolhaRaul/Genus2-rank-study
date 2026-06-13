@@ -1,0 +1,2 @@
+subfamily_rank,construction_kind,family_label,family_index,execution_relative_dir,top_k_count,n_determined,n_rank_ge_6,n_rank_ge_8,n_rank_ge_10,min_rank,max_rank,sum_rank,avg_rank,determined_ranks,top_k_min_affine,best_affine
+1,d4_reciprocal,D4_t=-97/36,,,5,5,5,4,0,6,8,38,7.6,"[6, 8, 8, 8, 8]",42,42

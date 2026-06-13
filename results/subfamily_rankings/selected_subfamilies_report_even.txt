@@ -1,7 +1,7 @@
 ====================================================================================================
 SUBFAMILY RANKING REPORT
 TOP_K = 5  |  RANK_THRESHOLDS = R1=6, R2=8, R3=10
-Showing top 50 subfamilies out of 650 total
+Showing top 30 subfamilies out of 200 total
 ====================================================================================================
 
 RANK #1  |  even_automorphism  |  FAMILIA #7  |  family_index=7
@@ -232,121 +232,7 @@ RANK #12  |  even_automorphism  |  FAMILIA #23  |  family_index=23
   height        : best=37584.0  avg=1126693.8
 ----------------------------------------------------------------------------------------------------
 
-RANK #13  |  general  |  FAMILIA #2  |  family_index=2
-  execution_dir : general_m4_H1_2000_H2_200000_topRef20_goodX30_rsN8_rsD8_maxRS15000_maxFam100000_maxQperRS100_q-8to8_L1-8to8_nL125_L2-10to10_nL245_workers12
-  rs            : (-2, -2/3, -1/3, 1)
-  q(x)          : -1/2
-  H(x)          : x^4 + 2*x^3 - 7/9*x^2 - 16/9*x - 4/9
-  top_k curves  : 5
-  determined    : 5 / 5
-  ranks         : [9, 9, 9, 9, 11]
-  min/max/sum   : 9 / 11 / 47
-  avg / median  : 9.4 / 9
-  >= R1=6       : 5
-  >= R2=8       : 5
-  >= R3=10       : 1
-  n_failed      : 0 (timeout=0, mem=0, req_err=0)
-  affine counts : min=72  sum=384  best=78
-  extra_x       : min=32  sum=172
-  height        : best=3240.0  avg=15436.8
-----------------------------------------------------------------------------------------------------
-
-RANK #14  |  general  |  FAMILIA #3  |  family_index=3
-  execution_dir : general_m4_H1_2000_H2_200000_topRef20_goodX30_rsN8_rsD8_maxRS15000_maxFam100000_maxQperRS100_q-8to8_L1-8to8_nL125_L2-10to10_nL245_workers12
-  rs            : (-1, 1/3, 2/3, 2)
-  q(x)          : -1/2
-  H(x)          : x^4 - 2*x^3 - 7/9*x^2 + 16/9*x - 4/9
-  top_k curves  : 5
-  determined    : 5 / 5
-  ranks         : [9, 9, 9, 9, 11]
-  min/max/sum   : 9 / 11 / 47
-  avg / median  : 9.4 / 9
-  >= R1=6       : 5
-  >= R2=8       : 5
-  >= R3=10       : 1
-  n_failed      : 0 (timeout=0, mem=0, req_err=0)
-  affine counts : min=72  sum=384  best=78
-  extra_x       : min=32  sum=172
-  height        : best=3240.0  avg=15436.8
-----------------------------------------------------------------------------------------------------
-
-RANK #15  |  general  |  FAMILIA #9  |  family_index=9
-  execution_dir : general_m4_H1_2000_H2_200000_topRef20_goodX30_rsN8_rsD8_maxRS15000_maxFam100000_maxQperRS100_q-8to8_L1-8to8_nL125_L2-10to10_nL245_workers12
-  rs            : (-1, -1/2, 1/3, 3)
-  q(x)          : -2*x^2 + 1/2*x + 2
-  H(x)          : x^4 - 11/6*x^3 - 7/2*x^2 - 1/6*x + 1/2
-  top_k curves  : 5
-  determined    : 5 / 5
-  ranks         : [9, 9, 9, 9, 11]
-  min/max/sum   : 9 / 11 / 47
-  avg / median  : 9.4 / 9
-  >= R1=6       : 5
-  >= R2=8       : 5
-  >= R3=10       : 1
-  n_failed      : 0 (timeout=0, mem=0, req_err=0)
-  affine counts : min=64  sum=380  best=92
-  extra_x       : min=28  sum=170
-  height        : best=2520.0  avg=3453.6
-----------------------------------------------------------------------------------------------------
-
-RANK #16  |  general  |  FAMILIA #13  |  family_index=13
-  execution_dir : general_m4_H1_2000_H2_200000_topRef20_goodX30_rsN8_rsD8_maxRS15000_maxFam100000_maxQperRS100_q-8to8_L1-8to8_nL125_L2-10to10_nL245_workers12
-  rs            : (-2, -3/2, -1/2, 2/3)
-  q(x)          : -1/2*x^2 + 1/2*x - 1
-  H(x)          : x^4 + 10/3*x^3 + 25/12*x^2 - 5/3*x - 1
-  top_k curves  : 5
-  determined    : 5 / 5
-  ranks         : [9, 9, 9, 9, 10]
-  min/max/sum   : 9 / 10 / 46
-  avg / median  : 9.2 / 9
-  >= R1=6       : 5
-  >= R2=8       : 5
-  >= R3=10       : 1
-  n_failed      : 0 (timeout=0, mem=0, req_err=0)
-  affine counts : min=54  sum=368  best=84
-  extra_x       : min=23  sum=164
-  height        : best=17856.0  avg=110976.0
-----------------------------------------------------------------------------------------------------
-
-RANK #17  |  general  |  FAMILIA #14  |  family_index=14
-  execution_dir : general_m4_H1_2000_H2_200000_topRef20_goodX30_rsN8_rsD8_maxRS15000_maxFam100000_maxQperRS100_q-8to8_L1-8to8_nL125_L2-10to10_nL245_workers12
-  rs            : (-2/3, 1/2, 3/2, 2)
-  q(x)          : -1/2*x^2 - 1/2*x - 1
-  H(x)          : x^4 - 10/3*x^3 + 25/12*x^2 + 5/3*x - 1
-  top_k curves  : 5
-  determined    : 5 / 5
-  ranks         : [9, 9, 9, 9, 10]
-  min/max/sum   : 9 / 10 / 46
-  avg / median  : 9.2 / 9
-  >= R1=6       : 5
-  >= R2=8       : 5
-  >= R3=10       : 1
-  n_failed      : 0 (timeout=0, mem=0, req_err=0)
-  affine counts : min=54  sum=368  best=84
-  extra_x       : min=23  sum=164
-  height        : best=17856.0  avg=110976.0
-----------------------------------------------------------------------------------------------------
-
-RANK #18  |  general  |  FAMILIA #17  |  family_index=17
-  execution_dir : general_m4_H1_2000_H2_200000_topRef20_goodX30_rsN8_rsD8_maxRS15000_maxFam100000_maxQperRS100_q-8to8_L1-8to8_nL125_L2-10to10_nL245_workers12
-  rs            : (-1/2, 1/2, 2/3, 1)
-  q(x)          : -2*x^2 + x + 1/2
-  H(x)          : x^4 - 5/3*x^3 + 5/12*x^2 + 5/12*x - 1/6
-  top_k curves  : 5
-  determined    : 5 / 5
-  ranks         : [9, 9, 9, 9, 9]
-  min/max/sum   : 9 / 9 / 45
-  avg / median  : 9.0 / 9
-  >= R1=6       : 5
-  >= R2=8       : 5
-  >= R3=10       : 0
-  n_failed      : 0 (timeout=0, mem=0, req_err=0)
-  affine counts : min=64  sum=358  best=80
-  extra_x       : min=28  sum=159
-  height        : best=2184.0  avg=4101.6
-----------------------------------------------------------------------------------------------------
-
-RANK #19  |  even_automorphism  |  FAMILIA #47  |  family_index=47
+RANK #13  |  even_automorphism  |  FAMILIA #47  |  family_index=47
   execution_dir : even_pairs2_H1_3000_H2_80000_topRef100_goodX26_rN4_rD4_maxR300_maxFam2000_q-3to3_A11to10sq_B1-15to15_workers11
   forced_xs     : (-4, -3, 3, 4)
   q(x)          : -x^2
@@ -365,7 +251,7 @@ RANK #19  |  even_automorphism  |  FAMILIA #47  |  family_index=47
   height        : best=501.0  avg=5513.4
 ----------------------------------------------------------------------------------------------------
 
-RANK #20  |  even_automorphism  |  FAMILIA #10  |  family_index=10
+RANK #14  |  even_automorphism  |  FAMILIA #10  |  family_index=10
   execution_dir : even_pairs2_H1_3000_H2_80000_topRef100_goodX26_rN4_rD4_maxR300_maxFam2000_q-3to3_A11over5to10sq_nA35_B1-15to15_nB67_workers11
   forced_xs     : (-3/2, -1/2, 1/2, 3/2)
   q(x)          : -2*x^2 + 1
@@ -384,7 +270,7 @@ RANK #20  |  even_automorphism  |  FAMILIA #10  |  family_index=10
   height        : best=14720.0  avg=869913.6
 ----------------------------------------------------------------------------------------------------
 
-RANK #21  |  even_automorphism  |  FAMILIA #44  |  family_index=44
+RANK #15  |  even_automorphism  |  FAMILIA #44  |  family_index=44
   execution_dir : even_pairs2_H1_3000_H2_80000_topRef100_goodX26_rN4_rD4_maxR300_maxFam2000_q-3to3_A11over5to10sq_nA35_B1-15to15_nB67_workers11
   forced_xs     : (-2, -1, 1, 2)
   q(x)          : -x^2 + 3
@@ -403,7 +289,7 @@ RANK #21  |  even_automorphism  |  FAMILIA #44  |  family_index=44
   height        : best=501.0  avg=7494.0
 ----------------------------------------------------------------------------------------------------
 
-RANK #22  |  even_automorphism  |  FAMILIA #25  |  family_index=25
+RANK #16  |  even_automorphism  |  FAMILIA #25  |  family_index=25
   execution_dir : even_pairs2_H1_4000_H2_150000_topRef25_goodX30_rN12_rD12_maxR5000_maxFam40000_q-10to10_A11over3to12sq_nA26_B1-18to18_nB79_workers8
   forced_xs     : (-5/3, -3/2, 3/2, 5/3)
   q(x)          : -x^2 + 1/3
@@ -422,7 +308,7 @@ RANK #22  |  even_automorphism  |  FAMILIA #25  |  family_index=25
   height        : best=1971.0  avg=554466.6
 ----------------------------------------------------------------------------------------------------
 
-RANK #23  |  even_automorphism  |  FAMILIA #26  |  family_index=26
+RANK #17  |  even_automorphism  |  FAMILIA #26  |  family_index=26
   execution_dir : even_pairs2_H1_3000_H2_80000_topRef100_goodX26_rN4_rD4_maxR300_maxFam2000_q-3to3_A11to10sq_B1-15to15_workers11
   forced_xs     : (-3/2, -1/3, 1/3, 3/2)
   q(x)          : -3*x^2 - 1
@@ -441,7 +327,7 @@ RANK #23  |  even_automorphism  |  FAMILIA #26  |  family_index=26
   height        : best=11664.0  avg=51073.2
 ----------------------------------------------------------------------------------------------------
 
-RANK #24  |  even_automorphism  |  FAMILIA #8  |  family_index=8
+RANK #18  |  even_automorphism  |  FAMILIA #8  |  family_index=8
   execution_dir : even_pairs2_H1_3000_H2_80000_topRef100_goodX26_rN7_rD7_maxR3000_maxFam20000_q-5to4_A1over3to10sq_nA22_B1-15to15_nB67_workers12
   forced_xs     : (-3/2, -5/6, 5/6, 3/2)
   q(x)          : -3
@@ -460,7 +346,7 @@ RANK #24  |  even_automorphism  |  FAMILIA #8  |  family_index=8
   height        : best=19764.0  avg=2605053.6
 ----------------------------------------------------------------------------------------------------
 
-RANK #25  |  even_automorphism  |  FAMILIA #14  |  family_index=14
+RANK #19  |  even_automorphism  |  FAMILIA #14  |  family_index=14
   execution_dir : even_pairs2_H1_3000_H2_80000_topRef100_goodX26_rN4_rD4_maxR300_maxFam2000_q-3to3_A11over5to10sq_nA35_B1-15to15_nB67_workers11
   forced_xs     : (-2, -1, 1, 2)
   q(x)          : -3
@@ -479,7 +365,7 @@ RANK #25  |  even_automorphism  |  FAMILIA #14  |  family_index=14
   height        : best=498.0  avg=12745.2
 ----------------------------------------------------------------------------------------------------
 
-RANK #26  |  even_automorphism  |  FAMILIA #38  |  family_index=38
+RANK #20  |  even_automorphism  |  FAMILIA #38  |  family_index=38
   execution_dir : even_pairs2_H1_3000_H2_80000_topRef100_goodX26_rN4_rD4_maxR300_maxFam2000_q-3to3_A11over5to10sq_nA35_B1-15to15_nB67_workers11
   forced_xs     : (-3, -1, 1, 3)
   q(x)          : -2*x^2 - 1
@@ -498,7 +384,7 @@ RANK #26  |  even_automorphism  |  FAMILIA #38  |  family_index=38
   height        : best=87.0  avg=63080.0
 ----------------------------------------------------------------------------------------------------
 
-RANK #27  |  even_automorphism  |  FAMILIA #39  |  family_index=39
+RANK #21  |  even_automorphism  |  FAMILIA #39  |  family_index=39
   execution_dir : even_pairs2_H1_3000_H2_80000_topRef100_goodX26_rN4_rD4_maxR300_maxFam2000_q-3to3_A11over5to10sq_nA35_B1-15to15_nB67_workers11
   forced_xs     : (-3/4, -1/2, 1/2, 3/4)
   q(x)          : -3*x^2 + 2
@@ -517,26 +403,7 @@ RANK #27  |  even_automorphism  |  FAMILIA #39  |  family_index=39
   height        : best=147456.0  avg=6348441.6
 ----------------------------------------------------------------------------------------------------
 
-RANK #28  |  general  |  FAMILIA #12  |  family_index=12
-  execution_dir : general_m4_H1_2000_H2_200000_topRef20_goodX30_rsN8_rsD8_maxRS15000_maxFam100000_maxQperRS100_q-8to8_L1-8to8_nL125_L2-10to10_nL245_workers12
-  rs            : (-2, -1/3, 1/2, 3/2)
-  q(x)          : -2*x^2 + 2*x + 2
-  H(x)          : x^4 + 1/3*x^3 - 13/4*x^2 + 5/12*x + 1/2
-  top_k curves  : 5
-  determined    : 5 / 5
-  ranks         : [8, 9, 9, 10, 11]
-  min/max/sum   : 8 / 11 / 47
-  avg / median  : 9.4 / 9
-  >= R1=6       : 5
-  >= R2=8       : 5
-  >= R3=10       : 2
-  n_failed      : 0 (timeout=0, mem=0, req_err=0)
-  affine counts : min=61  sum=353  best=80
-  extra_x       : min=27  sum=157
-  height        : best=2940.0  avg=8361.6
-----------------------------------------------------------------------------------------------------
-
-RANK #29  |  even_automorphism  |  FAMILIA #30  |  family_index=30
+RANK #22  |  even_automorphism  |  FAMILIA #30  |  family_index=30
   execution_dir : even_pairs2_H1_3000_H2_80000_topRef100_goodX26_rN4_rD4_maxR300_maxFam2000_q-3to3_A11over5to10sq_nA35_B1-15to15_nB67_workers11
   forced_xs     : (-4/3, -1/3, 1/3, 4/3)
   q(x)          : -x^2 - 1
@@ -555,7 +422,7 @@ RANK #29  |  even_automorphism  |  FAMILIA #30  |  family_index=30
   height        : best=3688740.0  avg=23887677.6
 ----------------------------------------------------------------------------------------------------
 
-RANK #30  |  even_automorphism  |  FAMILIA #18  |  family_index=18
+RANK #23  |  even_automorphism  |  FAMILIA #18  |  family_index=18
   execution_dir : even_pairs2_H1_3000_H2_80000_topRef100_goodX26_rN7_rD7_maxR3000_maxFam20000_q-5to4_A1over3to10sq_nA22_B1-15to15_nB67_workers12
   forced_xs     : (-2, -3/2, 3/2, 2)
   q(x)          : -3
@@ -574,7 +441,7 @@ RANK #30  |  even_automorphism  |  FAMILIA #18  |  family_index=18
   height        : best=2304.0  avg=56102.4
 ----------------------------------------------------------------------------------------------------
 
-RANK #31  |  even_automorphism  |  FAMILIA #3  |  family_index=3
+RANK #24  |  even_automorphism  |  FAMILIA #3  |  family_index=3
   execution_dir : even_pairs2_H1_3000_H2_80000_topRef100_goodX26_rN4_rD4_maxR300_maxFam2000_q-3to3_A11to10sq_B1-15to15_workers11
   forced_xs     : (-3, -2, 2, 3)
   q(x)          : -3*x^2 + 2
@@ -593,7 +460,7 @@ RANK #31  |  even_automorphism  |  FAMILIA #3  |  family_index=3
   height        : best=759.0  avg=1940.2
 ----------------------------------------------------------------------------------------------------
 
-RANK #32  |  even_automorphism  |  FAMILIA #42  |  family_index=42
+RANK #25  |  even_automorphism  |  FAMILIA #42  |  family_index=42
   execution_dir : even_pairs2_H1_3000_H2_80000_topRef100_goodX26_rN4_rD4_maxR300_maxFam2000_q-3to3_A11to10sq_B1-15to15_workers11
   forced_xs     : (-3/2, -3/4, 3/4, 3/2)
   q(x)          : -2*x^2
@@ -612,7 +479,7 @@ RANK #32  |  even_automorphism  |  FAMILIA #42  |  family_index=42
   height        : best=12816.0  avg=253686.4
 ----------------------------------------------------------------------------------------------------
 
-RANK #33  |  even_automorphism  |  FAMILIA #44  |  family_index=44
+RANK #26  |  even_automorphism  |  FAMILIA #44  |  family_index=44
   execution_dir : even_pairs2_H1_3000_H2_80000_topRef100_goodX26_rN4_rD4_maxR300_maxFam2000_q-3to3_A11to10sq_B1-15to15_workers11
   forced_xs     : (-3, -3/2, 3/2, 3)
   q(x)          : -2*x^2
@@ -631,83 +498,7 @@ RANK #33  |  even_automorphism  |  FAMILIA #44  |  family_index=44
   height        : best=1341.0  avg=5581.8
 ----------------------------------------------------------------------------------------------------
 
-RANK #34  |  general  |  FAMILIA #3  |  family_index=3
-  execution_dir : general_m5_H1_2000_H2_150000_topRef200_goodX30_rsN10_rsD10_maxRS30000_maxFam50000_maxQperRS80_q-14to13_L1-8to8_nL125_L2-14to14_nL277_workers8
-  rs            : (-1, 1, 1/2, -2/3, 3)
-  q(x)          : -2*x^2 - 3
-  H(x)          : x^5 - 17/6*x^4 - 11/6*x^3 + 23/6*x^2 + 5/6*x - 1
-  top_k curves  : 5
-  determined    : 5 / 5
-  ranks         : [8, 9, 9, 9, 10]
-  min/max/sum   : 8 / 10 / 45
-  avg / median  : 9.0 / 9
-  >= R1=6       : 5
-  >= R2=8       : 5
-  >= R3=10       : 1
-  n_failed      : 0 (timeout=0, mem=0, req_err=0)
-  affine counts : min=50  sum=316  best=78
-  extra_x       : min=20  sum=133
-  height        : best=690.0  avg=3549.6
-----------------------------------------------------------------------------------------------------
-
-RANK #35  |  general  |  FAMILIA #4  |  family_index=4
-  execution_dir : general_m5_H1_2000_H2_150000_topRef200_goodX30_rsN10_rsD10_maxRS30000_maxFam50000_maxQperRS80_q-14to13_L1-8to8_nL125_L2-14to14_nL277_workers8
-  rs            : (-1, 1, -1/2, 2/3, -3)
-  q(x)          : -2*x^2 - 3
-  H(x)          : x^5 + 17/6*x^4 - 11/6*x^3 - 23/6*x^2 + 5/6*x + 1
-  top_k curves  : 5
-  determined    : 5 / 5
-  ranks         : [8, 9, 9, 9, 10]
-  min/max/sum   : 8 / 10 / 45
-  avg / median  : 9.0 / 9
-  >= R1=6       : 5
-  >= R2=8       : 5
-  >= R3=10       : 1
-  n_failed      : 0 (timeout=0, mem=0, req_err=0)
-  affine counts : min=50  sum=316  best=78
-  extra_x       : min=20  sum=133
-  height        : best=690.0  avg=3549.6
-----------------------------------------------------------------------------------------------------
-
-RANK #36  |  general  |  FAMILIA #5  |  family_index=5
-  execution_dir : general_m5_H1_2000_H2_150000_topRef200_goodX30_rsN10_rsD10_maxRS30000_maxFam50000_maxQperRS80_q-14to13_L1-8to8_nL125_L2-14to14_nL277_workers8
-  rs            : (0, -1, -1/2, 1/3, -3)
-  q(x)          : -x^2 + 2*x + 2
-  H(x)          : x^5 + 25/6*x^4 + 7/2*x^3 - 1/6*x^2 - 1/2*x
-  top_k curves  : 5
-  determined    : 5 / 5
-  ranks         : [8, 9, 9, 9, 10]
-  min/max/sum   : 8 / 10 / 45
-  avg / median  : 9.0 / 9
-  >= R1=6       : 5
-  >= R2=8       : 5
-  >= R3=10       : 1
-  n_failed      : 0 (timeout=0, mem=0, req_err=0)
-  affine counts : min=40  sum=298  best=74
-  extra_x       : min=15  sum=124
-  height        : best=1188.0  avg=2492.4
-----------------------------------------------------------------------------------------------------
-
-RANK #37  |  general  |  FAMILIA #6  |  family_index=6
-  execution_dir : general_m5_H1_2000_H2_150000_topRef200_goodX30_rsN10_rsD10_maxRS30000_maxFam50000_maxQperRS80_q-14to13_L1-8to8_nL125_L2-14to14_nL277_workers8
-  rs            : (0, 1, 1/2, -1/3, 3)
-  q(x)          : -x^2 - 2*x + 2
-  H(x)          : x^5 - 25/6*x^4 + 7/2*x^3 + 1/6*x^2 - 1/2*x
-  top_k curves  : 5
-  determined    : 5 / 5
-  ranks         : [8, 9, 9, 9, 10]
-  min/max/sum   : 8 / 10 / 45
-  avg / median  : 9.0 / 9
-  >= R1=6       : 5
-  >= R2=8       : 5
-  >= R3=10       : 1
-  n_failed      : 0 (timeout=0, mem=0, req_err=0)
-  affine counts : min=40  sum=298  best=74
-  extra_x       : min=15  sum=124
-  height        : best=1188.0  avg=2492.4
-----------------------------------------------------------------------------------------------------
-
-RANK #38  |  even_automorphism  |  FAMILIA #34  |  family_index=34
+RANK #27  |  even_automorphism  |  FAMILIA #34  |  family_index=34
   execution_dir : even_pairs2_H1_3000_H2_80000_topRef100_goodX26_rN7_rD7_maxR3000_maxFam20000_q-5to4_A1over3to10sq_nA22_B1-15to15_nB67_workers12
   forced_xs     : (-2, -1, 1, 2)
   q(x)          : -5
@@ -726,45 +517,7 @@ RANK #38  |  even_automorphism  |  FAMILIA #34  |  family_index=34
   height        : best=184.0  avg=3611.4
 ----------------------------------------------------------------------------------------------------
 
-RANK #39  |  general  |  FAMILIA #24  |  family_index=24
-  execution_dir : general_m4_H1_1000_H2_80000_topRef100_goodX26_rsN6_rsD6_maxRS3000_maxFam10000_maxQperRS50_q-6to5_L1-6to6_nL119_L2-10to10_nL245_workers12
-  rs            : (-3, -1, 0, 1)
-  q(x)          : -2*x^2 + x - 2
-  H(x)          : x^4 + 3*x^3 - x^2 - 3*x
-  top_k curves  : 5
-  determined    : 5 / 5
-  ranks         : [8, 8, 9, 9, 10]
-  min/max/sum   : 8 / 10 / 44
-  avg / median  : 8.8 / 9
-  >= R1=6       : 5
-  >= R2=8       : 5
-  >= R3=10       : 1
-  n_failed      : 0 (timeout=0, mem=0, req_err=0)
-  affine counts : min=58  sum=328  best=82
-  extra_x       : min=25  sum=144
-  height        : best=86.0  avg=497.4
-----------------------------------------------------------------------------------------------------
-
-RANK #40  |  general  |  FAMILIA #25  |  family_index=25
-  execution_dir : general_m4_H1_1000_H2_80000_topRef100_goodX26_rsN6_rsD6_maxRS3000_maxFam10000_maxQperRS50_q-6to5_L1-6to6_nL119_L2-10to10_nL245_workers12
-  rs            : (-1, 0, 1, 3)
-  q(x)          : -2*x^2 - x - 2
-  H(x)          : x^4 - 3*x^3 - x^2 + 3*x
-  top_k curves  : 5
-  determined    : 5 / 5
-  ranks         : [8, 8, 9, 9, 10]
-  min/max/sum   : 8 / 10 / 44
-  avg / median  : 8.8 / 9
-  >= R1=6       : 5
-  >= R2=8       : 5
-  >= R3=10       : 1
-  n_failed      : 0 (timeout=0, mem=0, req_err=0)
-  affine counts : min=58  sum=328  best=82
-  extra_x       : min=25  sum=144
-  height        : best=86.0  avg=497.4
-----------------------------------------------------------------------------------------------------
-
-RANK #41  |  even_automorphism  |  FAMILIA #27  |  family_index=27
+RANK #28  |  even_automorphism  |  FAMILIA #27  |  family_index=27
   execution_dir : even_pairs2_H1_3000_H2_80000_topRef100_goodX26_rN4_rD4_maxR300_maxFam2000_q-3to3_A11to10sq_B1-15to15_workers11
   forced_xs     : (-3, -2, 2, 3)
   q(x)          : -2*x^2 + 3
@@ -783,7 +536,7 @@ RANK #41  |  even_automorphism  |  FAMILIA #27  |  family_index=27
   height        : best=338.0  avg=1061.2
 ----------------------------------------------------------------------------------------------------
 
-RANK #42  |  even_automorphism  |  FAMILIA #29  |  family_index=29
+RANK #29  |  even_automorphism  |  FAMILIA #29  |  family_index=29
   execution_dir : even_pairs2_H1_3000_H2_80000_topRef100_goodX26_rN4_rD4_maxR300_maxFam2000_q-3to3_A11to10sq_B1-15to15_workers11
   forced_xs     : (-2, -1, 1, 2)
   q(x)          : -x^2 + 2
@@ -802,7 +555,7 @@ RANK #42  |  even_automorphism  |  FAMILIA #29  |  family_index=29
   height        : best=76.0  avg=214.6
 ----------------------------------------------------------------------------------------------------
 
-RANK #43  |  even_automorphism  |  FAMILIA #41  |  family_index=41
+RANK #30  |  even_automorphism  |  FAMILIA #41  |  family_index=41
   execution_dir : even_pairs2_H1_3000_H2_80000_topRef100_goodX26_rN4_rD4_maxR300_maxFam2000_q-3to3_A11to10sq_B1-15to15_workers11
   forced_xs     : (-2, -1/3, 1/3, 2)
   q(x)          : -3*x^2 - 2
@@ -819,137 +572,4 @@ RANK #43  |  even_automorphism  |  FAMILIA #41  |  family_index=41
   affine counts : min=48  sum=272  best=68
   extra_x       : min=20  sum=116
   height        : best=5166.0  avg=10332.0
-----------------------------------------------------------------------------------------------------
-
-RANK #44  |  general  |  FAMILIA #44  |  family_index=44
-  execution_dir : general_m4_STAGE2_ONLY_H2_120000_L2-7to7_nL2_29
-  rs            : (-1/2, 1/3, 1, 2)
-  q(x)          : -2*x^2 + 1
-  H(x)          : x^4 - 17/6*x^3 + 4/3*x^2 + 5/6*x - 1/3
-  top_k curves  : 5
-  determined    : 5 / 5
-  ranks         : [8, 8, 9, 9, 10]
-  min/max/sum   : 8 / 10 / 44
-  avg / median  : 8.8 / 9
-  >= R1=6       : 5
-  >= R2=8       : 5
-  >= R3=10       : 1
-  n_failed      : 0 (timeout=0, mem=0, req_err=0)
-  affine counts : min=42  sum=288  best=74
-  extra_x       : min=17  sum=124
-  height        : best=804.0  avg=1248.0
-----------------------------------------------------------------------------------------------------
-
-RANK #45  |  general  |  FAMILIA #45  |  family_index=45
-  execution_dir : general_m4_STAGE2_ONLY_H2_120000_L2-7to7_nL2_29
-  rs            : (-2, -1, -1/3, 1/2)
-  q(x)          : -2*x^2 + 1
-  H(x)          : x^4 + 17/6*x^3 + 4/3*x^2 - 5/6*x - 1/3
-  top_k curves  : 5
-  determined    : 5 / 5
-  ranks         : [8, 8, 9, 9, 10]
-  min/max/sum   : 8 / 10 / 44
-  avg / median  : 8.8 / 9
-  >= R1=6       : 5
-  >= R2=8       : 5
-  >= R3=10       : 1
-  n_failed      : 0 (timeout=0, mem=0, req_err=0)
-  affine counts : min=42  sum=288  best=74
-  extra_x       : min=17  sum=124
-  height        : best=804.0  avg=1248.0
-----------------------------------------------------------------------------------------------------
-
-RANK #46  |  general  |  FAMILIA #6  |  family_index=6
-  execution_dir : general_m4_H1_2000_H2_200000_topRef20_goodX30_rsN8_rsD8_maxRS15000_maxFam100000_maxQperRS100_q-8to8_L1-8to8_nL125_L2-10to10_nL245_workers12
-  rs            : (-2, -3/2, -2/3, 1/2)
-  q(x)          : -2*x^2 + x + 1
-  H(x)          : x^4 + 11/3*x^3 + 13/4*x^2 - 2/3*x - 1
-  top_k curves  : 5
-  determined    : 5 / 5
-  ranks         : [8, 8, 8, 9, 10]
-  min/max/sum   : 8 / 10 / 43
-  avg / median  : 8.6 / 8
-  >= R1=6       : 5
-  >= R2=8       : 5
-  >= R3=10       : 1
-  n_failed      : 0 (timeout=0, mem=0, req_err=0)
-  affine counts : min=66  sum=387  best=96
-  extra_x       : min=29  sum=174
-  height        : best=1572.0  avg=5544.0
-----------------------------------------------------------------------------------------------------
-
-RANK #47  |  general  |  FAMILIA #33  |  family_index=33
-  execution_dir : general_m4_STAGE2_ONLY_H2_120000_L2-7to7_nL2_29
-  rs            : (-1, -2/3, 1/3, 1)
-  q(x)          : -2*x^2 - 2*x + 1
-  H(x)          : x^4 + 1/3*x^3 - 11/9*x^2 - 1/3*x + 2/9
-  top_k curves  : 5
-  determined    : 5 / 5
-  ranks         : [8, 8, 8, 9, 10]
-  min/max/sum   : 8 / 10 / 43
-  avg / median  : 8.6 / 8
-  >= R1=6       : 5
-  >= R2=8       : 5
-  >= R3=10       : 1
-  n_failed      : 0 (timeout=0, mem=0, req_err=0)
-  affine counts : min=48  sum=312  best=82
-  extra_x       : min=20  sum=136
-  height        : best=756.0  avg=3222.0
-----------------------------------------------------------------------------------------------------
-
-RANK #48  |  general  |  FAMILIA #34  |  family_index=34
-  execution_dir : general_m4_STAGE2_ONLY_H2_120000_L2-7to7_nL2_29
-  rs            : (-1, -1/3, 2/3, 1)
-  q(x)          : -2*x^2 + 2*x + 1
-  H(x)          : x^4 - 1/3*x^3 - 11/9*x^2 + 1/3*x + 2/9
-  top_k curves  : 5
-  determined    : 5 / 5
-  ranks         : [8, 8, 8, 9, 10]
-  min/max/sum   : 8 / 10 / 43
-  avg / median  : 8.6 / 8
-  >= R1=6       : 5
-  >= R2=8       : 5
-  >= R3=10       : 1
-  n_failed      : 0 (timeout=0, mem=0, req_err=0)
-  affine counts : min=48  sum=312  best=82
-  extra_x       : min=20  sum=136
-  height        : best=756.0  avg=3222.0
-----------------------------------------------------------------------------------------------------
-
-RANK #49  |  general  |  FAMILIA #48  |  family_index=48
-  execution_dir : general_m4_H1_1000_H2_80000_topRef100_goodX26_rsN6_rsD6_maxRS3000_maxFam2000_maxQperRS20_q-5to5_L1-6to6_nL119_L2-10to10_nL245_workers12
-  rs            : (-2, -1, -1/2, 2)
-  q(x)          : -2*x + 2
-  H(x)          : x^4 + 3/2*x^3 - 7/2*x^2 - 6*x - 2
-  top_k curves  : 5
-  determined    : 5 / 5
-  ranks         : [8, 8, 8, 8, 10]
-  min/max/sum   : 8 / 10 / 42
-  avg / median  : 8.4 / 8
-  >= R1=6       : 5
-  >= R2=8       : 5
-  >= R3=10       : 1
-  n_failed      : 0 (timeout=0, mem=0, req_err=0)
-  affine counts : min=54  sum=294  best=68
-  extra_x       : min=23  sum=127
-  height        : best=116.0  avg=1095.2
-----------------------------------------------------------------------------------------------------
-
-RANK #50  |  general  |  FAMILIA #49  |  family_index=49
-  execution_dir : general_m4_H1_1000_H2_80000_topRef100_goodX26_rsN6_rsD6_maxRS3000_maxFam2000_maxQperRS20_q-5to5_L1-6to6_nL119_L2-10to10_nL245_workers12
-  rs            : (-2, 1/2, 1, 2)
-  q(x)          : -2*x - 2
-  H(x)          : x^4 - 3/2*x^3 - 7/2*x^2 + 6*x - 2
-  top_k curves  : 5
-  determined    : 5 / 5
-  ranks         : [8, 8, 8, 8, 10]
-  min/max/sum   : 8 / 10 / 42
-  avg / median  : 8.4 / 8
-  >= R1=6       : 5
-  >= R2=8       : 5
-  >= R3=10       : 1
-  n_failed      : 0 (timeout=0, mem=0, req_err=0)
-  affine counts : min=54  sum=294  best=68
-  extra_x       : min=23  sum=127
-  height        : best=116.0  avg=1095.2
 ----------------------------------------------------------------------------------------------------
